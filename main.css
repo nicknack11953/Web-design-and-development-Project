@@ -44,3 +44,8 @@ footer {
 .searchbtn {
   background-color: brown;
 }
+
+.col {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
