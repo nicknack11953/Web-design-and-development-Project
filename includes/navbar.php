@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="static/stylesheet/main.css">
-  <script src="static/script/script.js"></script>
-  <title>DGDaGod</title>
-</head>
-
-<body style="background-color: black;">
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg d-flex bg-dark navbar-dark">
+<nav class="navbar navbar-expand-lg d-flex bg-dark navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Logo</a>
       <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
@@ -54,15 +40,3 @@
     </div>
     </div>
   </nav>
-  <div id="info" class="container">
-    
-  </div>
-
-
-  <!-- <footer>
-    DG's footer
-  </footer> -->
-</body>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-
-</html>
