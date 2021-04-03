@@ -49,3 +49,9 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.cardChar label{
+  display: block;
+  text-align: center;
+  line-height: 150%;
+}

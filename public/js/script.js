@@ -15,17 +15,26 @@ function readTextFile(file, callback) {
 //usage:
 readTextFile("http://ddragon.leagueoflegends.com/cdn/11.5.1/data/th_TH/champion.json", function (text) {
   info = JSON.parse(text);
-  let div = document.createElement("div");
-  let webImage = "http://ddragon.leagueoflegends.com/cdn/11.5.1/img/champion/"
+  console.log(info.data);
+  createListItem(info);
+});
+
+function createListItem() {
+  const div = document.createElement("DIV");
+  const webImage = "http://ddragon.leagueoflegends.com/cdn/11.5.1/img/champion/"
   div.classList.add("row");
   for (i in info.data) {
-    let div2 = document.createElement("div");
-    let img = document.createElement("img");
+    const div2 = document.createElement("DIV");
+    const img = document.createElement("IMG");
+    const label = document.createElement("LABEL")
+    label.classList.add("text-center")
     div2.classList.add("col");
+    div2.classList.add("cardChar");
+    label.innerHTML = i;
     img.src = webImage + info.data[i].image.full;
     div2.appendChild(img);
+    div2.appendChild(label);
     div.appendChild(div2);
   };
   document.getElementById("info").appendChild(div);
-});
-
+}
