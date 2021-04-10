@@ -26,11 +26,14 @@ function createListItem() {
   for (i in info.data) {
     const div2 = document.createElement("DIV");
     const img = document.createElement("IMG");
-    const label = document.createElement("LABEL")
+    const label = document.createElement("LABEL");
+    const a = document.createElement("A");
     label.classList.add("text-center")
     div2.classList.add("col");
     div2.classList.add("cardChar");
-    label.innerHTML = i;
+    a.href = "champion/post.php?name=<?php echo "+ info.data[i].id +"; ?>"
+    a.innerHTML = info.data[i].name;
+    label.appendChild(a);
     img.src = webImage + info.data[i].image.full;
     div2.appendChild(img);
     div2.appendChild(label);
@@ -38,3 +41,4 @@ function createListItem() {
   };
   document.getElementById("info").appendChild(div);
 }
+//<a href="champion/post.php?name=<?php echo "test"; ?>">test</a>
