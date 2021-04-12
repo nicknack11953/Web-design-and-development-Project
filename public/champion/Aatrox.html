@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <script src="js/loadCampion.js"></script>
+  <script src="js/script.js"></script>
   <title>DGDaGod</title>
 </head>
 
 <body style="background-color: #D0E1F9;">
+  <!-- Navbar -->
+  <div id="navbar"></div>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg d-flex navbar-dark" style="background-color:#1E1F26">
     <div class="container-fluid">
@@ -22,16 +24,16 @@
         <ul class="navbar-nav d-lg-flex justify-content-center" style="width: 30%;">
           <form class="d-flex">
             <input type="search" class="form-control me-2" style="width: 300px;"
-              placeholder="กรุณาใส่ชื่อตัวละครที่ต้องการ" onkeyup="searchChamp()" id="myInput">
+              placeholder="กรุณาใส่ชื่อตัวละครที่ต้องการ">
             <button class="searchbtn btn btn-outline-light" type="submit">ค้นหา</button>
           </form>
         </ul>
         <ul class="Hposit navbar-nav d-lg-flex justify-content-between">
           <li class="navbar-item posit">
-            <a href="index.html" class="nav-link active" aria-current="page">ทั้งหมด</a>
+            <a href="#" class="nav-link active" aria-current="page">ทั้งหมด</a>
           </li>
           <li class="navbar-item posit">
-            <a href="toplane.html" class="nav-link">บน</a>
+            <a href="#" class="nav-link">บน</a>
           </li>
           <li class="navbar-item posit">
             <a href="#" class="nav-link">ป่า</a>
@@ -43,7 +45,7 @@
             <a href="#" class="nav-link">ล่าง</a>
           </li>
           <li class="navbar-item posit">
-            <a href="support.html" class="nav-link">ซัพพอร์ต</a>
+            <a href="#" class="nav-link">ซัพพอร์ต</a>
           </li>
           <li class="navbar-item posit">
             <a href="#" class="nav-link">รายการระดับ</a>
@@ -52,9 +54,7 @@
       </div>
     </div>
   </nav>
-  <div id="info" class="container">
 
-  </div>
 
   <!-- <footer>
     DG's footer
