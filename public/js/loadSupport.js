@@ -13,7 +13,7 @@ function readTextFile(file, callback) {
 }
 
 //usage:
-readTextFile("http://ddragon.leagueoflegends.com/cdn/11.5.1/data/th_TH/champion.json", function (text) {
+readTextFile("http://ddragon.leagueoflegends.com/cdn/11.7.1/data/th_TH/champion.json", function (text) {
   info = JSON.parse(text);
   console.log(info.data['Aatrox'].tags);
   createListItem(info);
@@ -21,7 +21,7 @@ readTextFile("http://ddragon.leagueoflegends.com/cdn/11.5.1/data/th_TH/champion.
 
 function createListItem() {
   const div = document.createElement("DIV");
-  const webImage = "http://ddragon.leagueoflegends.com/cdn/11.5.1/img/champion/"
+  const webImage = "http://ddragon.leagueoflegends.com/cdn/11.7.1/img/champion/"
   div.classList.add("row");
   for (i in info.data) {
     if (info.data[i].tags.includes('Support')) {

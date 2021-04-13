@@ -8,11 +8,6 @@
   object-fit: cover;
 }
 
-.card {
-  margin: auto;
-  max-width: 300px;
-}
-
 footer {
   font-weight: 400;
   color: white;
@@ -48,10 +43,4 @@ footer {
 .col {
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.cardChar label{
-  display: block;
-  text-align: center;
-  line-height: 150%;
 }
