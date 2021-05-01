@@ -1,3 +1,24 @@
-# Web-design-and-development-Project
+# webhhggver2
 
-https://htmlpreview.github.io/?https://github.com/nicknack11953/Web-design-and-development-Project/blob/main/index.html
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
