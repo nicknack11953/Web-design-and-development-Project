@@ -13,6 +13,7 @@ function readTextFile(file, callback) {
   rawFile.send(null);
 }
 
+let load = 
 //usage:
 readTextFile("https://ddragon.leagueoflegends.com/realms/na.json", function (text) {
   let info = JSON.parse(text);
@@ -45,6 +46,10 @@ function createInfo(info, ver, cdn) {
   champImg.appendChild(img);
   nameChamp.appendChild(h1);
   loreChamp.appendChild(p);
+}
+
+function skillTab() {
+
 }
 
 // http://ddragon.leagueoflegends.com/cdn/7.23.1/data/th_TH/rune.json
