@@ -5,7 +5,7 @@
       style="background-color: #1e1f26"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="#">HH.GG</a>
         <button
           class="navbar-toggler"
           data-bs-target="#menu"
@@ -81,5 +81,17 @@ export default {
 
 .searchbtn {
   background-color: brown;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  box-shadow: var(--box-shadow);
+  z-index: 999;
+  transition: background 1s ease;
 }
 </style>

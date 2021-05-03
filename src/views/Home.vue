@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <div class="container">
+    <div class="container" style="padding-top: 4rem">
       <div class="row">
         <div
           class="col-sm-2 col-6"
@@ -17,7 +17,7 @@
                   detail.image.full
                 "
               />
-              <div class="card-body">
+              <div class="card-body"  style="text-align: center">
                 <label class="card-text">{{ detail.name }}</label>
               </div>
             </div>
@@ -52,4 +52,5 @@ a {
   color: #000;
   text-decoration: none;
 }
+
 </style>

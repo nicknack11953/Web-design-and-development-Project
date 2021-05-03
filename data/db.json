@@ -1,0 +1,716 @@
+{
+  "items": {
+    "Aatrox": [3047, 6630, 3053, 6333, 3065, 3026],
+    "Ahri": [6655, 3020, 4628, 3157, 3041, 3089],
+    "Akali": [4636, 3020, 3100, 3157, 3135, 3089],
+    "Alistar": [3117, 3190, 3050, 3075, 4641, 3109],
+    "Amumu": [3068, 3047, 3075, 3001, 3193, 3110],
+    "Anivia": [6653, 3020, 3003, 3157, 3041, 3102],
+    "Annie": [3020, 6655, 3157, 3041, 3135, 3089],
+    "Aphelios": [3006, 6672, 3085, 3031, 3026, 3072],
+    "Ashe": [3006, 6672, 3046, 3031, 3026, 3033],
+    "AurelionSol": [3020, 3116, 3041, 3157, 4629, 3135],
+    "Azir": [6653, 3020, 3115, 3157, 3135, 3116],
+    "Bard": [3158, 3190, 4629, 3107, 4641, 4643],
+    "Blitzcrank": [3117, 3190, 3050, 3109, 4641, 4643],
+    "Brand": [3020, 6653, 3157, 3165, 4637, 3135],
+    "Braum": [3047, 3190, 3050, 3109, 4641, 4643],
+    "Caitlyn": [6671, 3006, 3095, 3031, 3094, 3026],
+    "Camille": [3078, 3047, 3074, 3053, 3026, 6609],
+    "Cassiopeia": [6653, 3003, 3157, 3116, 3089, 3165],
+    "Chogath": [3047, 6662, 3075, 3193, 3083, 4401],
+    "Corki": [6673, 3020, 3004, 3508, 3031, 3094],
+    "Darius": [3047, 6631, 3053, 3742, 3075, 6333],
+    "Diana": [4636, 3020, 3115, 3157, 3089, 3135],
+    "DrMundo": [6664, 3111, 3065, 3075, 3143, 4401],
+    "Draven": [6673, 3006, 6676, 3031, 3036, 3094],
+    "Ekko": [3152, 3020, 3100, 3041, 3157, 3089],
+    "Elise": [3020, 4636, 3041, 3157, 3165, 3135],
+    "Evelynn": [3020, 3152, 3041, 3089, 3135, 3102],
+    "Ezreal": [3508, 3158, 3004, 6691, 6694, 3026],
+    "Fiddlesticks": [3020, 3152, 3157, 3165, 3135, 3089],
+    "Fiora": [3508, 3047, 6673, 3074, 3053, 3026],
+    "Fizz": [3158, 3157, 3041, 3100, 3089, 3135],
+    "Galio": [3111, 3152, 3157, 3165, 3041, 4637],
+    "Gangplank": [3078, 3158, 3053, 6676, 3031, 3036],
+    "Garen": [3006, 6631, 3742, 3053, 3075, 3071],
+    "Gnar": [3047, 6631, 3053, 3075, 3143, 3193],
+    "Gragas": [3020, 4636, 3157, 3165, 3135, 3089],
+    "Graves": [6671, 3047, 6676, 3031, 3072, 3026],
+    "Gwen": [4633, 3047, 3115, 3157, 3089, 4629],
+    "Hecarim": [3158, 6664, 3742, 4401, 3075, 3143],
+    "Heimerdinger": [6653, 3020, 3157, 3135, 3165, 3116],
+    "Illaoi": [6632, 3111, 3053, 6333, 3065, 3026],
+    "Irelia": [3153, 3047, 6673, 3053, 3026, 6609],
+    "Ivern": [3158, 6617, 6616, 3041, 3107, 3504],
+    "Janna": [3158, 2065, 6616, 3011, 4641, 3504],
+    "JarvanIV": [6630, 3047, 3053, 3026, 3075, 3193],
+    "Jax": [3153, 3047, 3078, 3053, 6333, 3026],
+    "Jayce": [6692, 3158, 3004, 3814, 6694, 3026],
+    "Jhin": [6671, 3009, 6676, 3094, 3031, 3026],
+    "Jinx": [6672, 3006, 3085, 3031, 3026, 3072],
+    "Kaisa": [6672, 3006, 6676, 3046, 3031, 3026],
+    "Kalista": [3006, 6673, 3085, 3072, 3026, 7018],
+    "Karma": [3158, 2065, 3011, 6616, 4641, 4643],
+    "Karthus": [3020, 6653, 3041, 3157, 3135, 3089],
+    "Kassadin": [6656, 3020, 3041, 3157, 3089, 3135],
+    "Katarina": [3020, 3152, 3115, 3157, 3041, 3089],
+    "Kayle": [3006, 3115, 4633, 3089, 3157, 3026],
+    "Kayn": [6630, 3047, 3071, 3053, 3814, 3026],
+    "Kennen": [3152, 3020, 3157, 3165, 3135, 3089],
+    "Khazix": [6691, 3158, 3814, 6694, 3026, 6609],
+    "Kindred": [6672, 3006, 6676, 3031, 3026, 3072],
+    "Kled": [3047, 3068, 3748, 3053, 3193, 6333],
+    "KogMaw": [3006, 6672, 3124, 3085, 3026, 3072],
+    "Leblanc": [3020, 6655, 3041, 3157, 3089, 3135],
+    "LeeSin": [6692, 3158, 3814, 3053, 3026, 6333],
+    "Leona": [3117, 3190, 3050, 3109, 4641, 4643],
+    "Lillia": [3158, 6653, 3157, 4637, 3165, 3102],
+    "Lissandra": [6656, 3020, 3157, 3089, 3135, 3102],
+    "Lucian": [6672, 3006, 3508, 3031, 3026, 3072],
+    "Lulu": [6617, 3158, 3504, 6616, 4641, 4643],
+    "Lux": [3020, 6655, 3157, 4628, 3089, 4643],
+    "Malphite": [3047, 3068, 3075, 3110, 3143, 3193],
+    "Malzahar": [6653, 3020, 3116, 3157, 3135, 3089],
+    "Maokai": [4005, 3020, 4637, 3165, 4641, 4643],
+    "MasterYi": [6691, 3006, 6676, 3508, 3031, 3026],
+    "MissFortune": [6672, 3006, 3072, 3031, 3036, 3026],
+    "Mordekaiser": [4633, 3047, 4637, 3157, 3075, 3065],
+    "Morgana": [4005, 3020, 3157, 3165, 4641, 4643],
+    "Nami": [4005, 3158, 3504, 6616, 4641, 4643],
+    "Nasus": [3158, 6632, 3110, 3065, 3075, 3193],
+    "Nautilus": [3117, 3190, 3050, 3109, 4641, 4643],
+    "Neeko": [3020, 3152, 3157, 3165, 3135, 3089],
+    "Nidalee": [3158, 4636, 3041, 3157, 3135, 3089],
+    "Nocturne": [3158, 6631, 3053, 3026, 6609, 3814],
+    "Nunu": [3068, 3047, 3742, 3075, 3065, 3041],
+    "Olaf": [6631, 3047, 3053, 6333, 3075, 3026],
+    "Orianna": [3020, 6655, 3003, 3157, 3089, 3135],
+    "Ornn": [3047, 3068, 3075, 3001, 3193, 3143],
+    "Pantheon": [6692, 3047, 3071, 3053, 3026, 6609],
+    "Poppy": [6632, 3047, 3742, 3075, 3053, 3001],
+    "Pyke": [3117, 6693, 3179, 3814, 3026, 3142],
+    "Qiyana": [6693, 3158, 6695, 3004, 6694, 3026],
+    "Quinn": [6671, 3006, 3095, 3031, 3026, 3036],
+    "Rakan": [3158, 2065, 3050, 3107, 4641, 3504],
+    "Rammus": [3047, 6664, 3075, 3742, 3143, 3193]
+  },
+  "counter": {
+    "Aatrox": {
+      "win": ["Poppy", "Darius", "Maokai", "Kennen", "Illaoi"],
+      "lose": ["Gragas", "Gangplank", "Sylas", "Yone", "DrMundo"]
+    },
+    "Ahri": {
+      "win": ["Velkoz", "Rumble", "Annie", "Corki", "Talon"],
+      "lose": ["Gwen", "Neeko", "LeeSin", "Irelia", "Tristana"]
+    },
+    "Akali": {
+      "win": ["Pantheon", "Galio", "Rumble", "Talon", "Neeko"],
+      "lose": ["Gwen", "Syndra", "Ekko", "Irelia", "Yone"]
+    },
+    "Alistar": {
+      "win": ["Bard", "Lulu", "Taric", "Senna", "Sona"],
+      "lose": ["Sett", "Yuumi", "Pantheon", "Nautilus", "Rell"]
+    },
+    "Amumu": {
+      "win": ["Trundle", "Fiddlesticks", "Vi", "RekSai", "Nunu"],
+      "lose": ["Shyvana", "Nidalee", "Gwen", "Hecarim", "Gragas"]
+    },
+    "Anivia": {
+      "win": ["Corki", "Zoe", "Ziggs", "Malzahar", "Lux"],
+      "lose": ["Irelia", "Ryze", "Lucian", "Syndra", "Gwen"]
+    },
+    "Annie": {
+      "win": ["LeeSin", "Rumble", "Taric", "Velkoz", "Xerath"],
+      "lose": ["Irelia", "Zoe", "Viego", "Pantheon", "Ryze"]
+    },
+    "Aphelios": {
+      "win": ["KogMaw", "Ashe", "Lucian", "Jhin", "MissFortune"],
+      "lose": ["Kalista", "Twitch", "Draven", "Senna", "Ezreal"]
+    },
+    "Ashe": {
+      "win": ["Varus", "Tristana", "KogMaw", "Jinx", "Vayne"],
+      "lose": ["Aphelios", "Xayah", "Lucian", "Draven", "Ezreal"]
+    },
+    "AurelionSol": {
+      "win": ["Diana", "Azir", "Kassadin", "Katarina", "Neeko"],
+      "lose": ["Lucian", "Irelia", "Syndra", "Corki", "Viego"]
+    },
+    "Azir": {
+      "win": ["Corki", "Neeko", "Jayce", "Talon", "Rumble"],
+      "lose": ["Veigar", "Gwen", "Irelia", "Yone", "Fizz"]
+    },
+    "Bard": {
+      "win": ["Maokai", "Zyra", "Morgana", "Soraka", "Janna"],
+      "lose": ["Pantheon", "Sett", "Leona", "Braum", "Nautilus"]
+    },
+    "Blitzcrank": {
+      "win": ["Leona", "Zilean", "Shaco", "Maokai", "Alistar"],
+      "lose": ["Zyra", "Karma", "Galio", "Lux", "Sett"]
+    },
+    "Brand": {
+      "win": ["Shaco", "Maokai", "Yuumi", "Xerath", "Rell"],
+      "lose": ["Sett", "Pantheon", "Swain", "Braum", "Galio"]
+    },
+    "Braum": {
+      "win": ["Zilean", "Zyra", "Rell", "Bard", "Senna"],
+      "lose": ["Pantheon", "Taric", "Lux", "Shaco", "Nami"]
+    },
+    "Caitlyn": {
+      "win": ["Draven", "Jhin", "Sivir", "Swain", "Jinx"],
+      "lose": ["Aphelios", "Xayah", "Lucian", "Kalista", "Ezreal"]
+    },
+    "Camille": {
+      "win": ["Quinn", "Teemo", "Shen", "Kled", "Kayle"],
+      "lose": ["Yasuo", "Yone", "Rengar", "Gragas", "Garen"]
+    },
+    "Cassiopeia": {
+      "win": ["Pantheon", "Xerath", "Annie", "Velkoz", "Anivia"],
+      "lose": ["Gwen", "Ryze", "Irelia", "Syndra", "Tristana"]
+    },
+    "Chogath": {
+      "win": ["Warwick", "Wukong", "Singed", "DrMundo", "Sett"],
+      "lose": ["Yone", "Malphite", "Kayle", "Gragas", "Irelia"]
+    },
+    "Corki": {
+      "win": ["Cassiopeia", "Talon", "Diana", "Annie", "Zed"],
+      "lose": ["Azir", "Neeko", "Ryze", "Syndra", "Lux"]
+    },
+    "Darius": {
+      "win": ["Teemo", "Maokai", "Wukong", "Riven", "Quinn"],
+      "lose": ["Yasuo", "Viego", "Sylas", "Akali", "Gnar"]
+    },
+    "Diana": {
+      "win": ["Warwick", "Nunu", "Olaf", "Taliyah", "RekSai"],
+      "lose": ["Lillia", "Rammus", "Nidalee", "Hecarim", "Gwen"]
+    },
+    "DrMundo": {
+      "win": ["Ivern", "Trundle", "Fiddlesticks", "Khazix", "RekSai"],
+      "lose": ["Amumu", "JarvanIV", "Mordekaiser", "Rengar", "Hecarim"]
+    },
+    "Draven": {
+      "win": ["Ashe", "Jinx", "Sivir", "MissFortune", "Kalista"],
+      "lose": ["Xayah", "Lucian", "Caitlyn", "Ezreal", "Varus"]
+    },
+    "Ekko": {
+      "win": ["Poppy", "Nunu", "Zac", "Skarner", "Shaco"],
+      "lose": ["JarvanIV", "Amumu", "Gwen", "Olaf", "Graves"]
+    },
+    "Elise": {
+      "win": ["Shaco", "JarvanIV", "Trundle", "XinZhao", "Amumu"],
+      "lose": ["Lillia", "Gwen", "MasterYi", "Nidalee", "Rammus"]
+    },
+    "Evelynn": {
+      "win": ["Fiddlesticks", "Ivern", "Trundle", "Nunu", "Vi"],
+      "lose": ["Gwen", "Hecarim", "Graves", "Karthus", "Rummus"]
+    },
+    "Ezreal": {
+      "win": ["Sivir", "Swain", "Jhin", "Vayne", "KogMaw"],
+      "lose": ["Xayah", "Aphelios", "Senna", "Kalista", "Lucian"]
+    },
+    "Fiddlesticks": {
+      "win": ["Zac", "Nunu", "Shyvana", "Elise", "XinZhao"],
+      "lose": ["Lillia", "Amumu", "Ivern", "Gragas", "JarvanIV"]
+    },
+    "Fiora": {
+      "win": ["Urgot", "Malphite", "Singed", "Shen", "Darius"],
+      "lose": ["Yasuo", "Yone", "Gwen", "Irelia", "Viego"]
+    },
+    "Fizz": {
+      "win": ["LeeSin", "Anivia", "Renekton", "Pantheon", "Zed"],
+      "lose": ["Irelia", "Leblanc", "Syndra", "Lux", "Xerath"]
+    },
+    "Galio": {
+      "win": ["Velkoz", "Aatrox", "Cassiopeia", "Sett", "Neeko"],
+      "lose": ["Ryze", "Syndra", "Irelia", "Akali", "Orianna"]
+    },
+    "Gangplank": {
+      "win": ["Rengar", "Kled", "Quinn", "Urgot", "Aatrox"],
+      "lose": ["Viego", "Renekton", "Jayce", "Kennen", "Akali"]
+    },
+    "Garen": {
+      "win": ["Darius", "Camille", "Kayle", "Vayne", "Sett"],
+      "lose": ["Rengar", "Irelia", "Viego", "Volibear", "Jayce"]
+    },
+    "Gnar": {
+      "win": ["Darius", "Urgot", "Kled", "Maokai", "Malphite"],
+      "lose": ["Volibear", "Gwen", "Yone", "Singed", "Viego"]
+    },
+    "Gragas": {
+      "win": ["Shaco", "Volibear", "Amumu", "Fiddlesticks", "Rengar"],
+      "lose": ["Rumble", "Karthus", "Gwen", "Trundle", "Kindred"]
+    },
+    "Graves": {
+      "win": ["Taliyah", "Warwick", "Evelynn", "Khazix", "Trundle"],
+      "lose": ["Amumu", "Shyvana", "Sejuani", "Lillia", "Rammus"]
+    },
+    "Gwen": {
+      "win": ["Singed", "Warwick", "Yasuo", "Pantheon", "Fiora"],
+      "lose": ["Yorick", "Sion", "Kled", "Aatrox", "Illaoi"]
+    },
+    "Hecarim": {
+      "win": ["Ivern", "Nunu", "Evelynn", "Amumu", "Morgana"],
+      "lose": ["Lillia", "Gragas", "Graves", "Sejuani", "MasterYi"]
+    },
+    "Heimerdinger": {
+      "win": ["Nasus", "Garen", "Gnar", "Lucian", "Yone"],
+      "lose": ["DrMundo", "Teemo", "Gangplank", "LeeSin", "Malphite"]
+    },
+    "Illaoi": {
+      "win": ["Vladimir", "DrMundo", "Kennen", "Nasus", "Ryze"],
+      "lose": ["Akali", "Yone", "Gangplank", "Renekton", "Warwick"]
+    },
+    "Irelia": {
+      "win": ["Nocturne", "Volibear", "Shen", "Kled", "Singed"],
+      "lose": ["Yone", "Yorick", "Vayne", "Illaoi", "Rumble"]
+    },
+    "Ivern": {
+      "win": ["Fiddlesticks", "Nocturne", "Morgana", "Taliyah", "MasterYi"],
+      "lose": ["Hecarim", "Gwen", "Olaf", "DrMundo", "Kindred"]
+    },
+    "Janna": {
+      "win": ["Shaco", "Sona", "Zyra", "Pantheon", "Nami"],
+      "lose": ["Sett", "Taric", "Rell", "Swain", "Brand"]
+    },
+    "JarvanIV": {
+      "win": ["Karthus", "XinZhao", "Fiddlesticks", "Ekko", "Poppy"],
+      "lose": ["Shyvana", "Lillia", "Sejuani", "Rammus", "Nidalee"]
+    },
+    "Jax": {
+      "win": ["Malphite", "Kled", "Shen", "Kennen", "Singed"],
+      "lose": ["Yasuo", "Irelia", "Gwen", "Volibear", "Akali"]
+    },
+    "Jayce": {
+      "win": ["Nasus", "Maokai", "Ornn", "Malphite", "Tryndamere"],
+      "lose": ["Kayle", "Mordekaiser", "Fiora", "Gwen", "Rumble"]
+    },
+    "Jhin": {
+      "win": ["Swain", "Jinx", "Tristana", "Ashe", "Draven"],
+      "lose": ["Aphelios", "Ezreal", "Lucian", "Xayah", "Varus"]
+    },
+    "Jinx": {
+      "win": ["Swain", "Ashe", "Jhn", "Varus", "Sivir"],
+      "lose": ["Lucian", "Xayah", "Kalista", "Aphelios", "Samira"]
+    },
+    "Kaisa": {
+      "win": ["Swain", "Jinx", "KogMaw", "Ashe", "Jhin"],
+      "lose": ["Ezreal", "Lucian", "Aphelios", "Yasuo", "Senna"]
+    },
+    "Kalista": {
+      "win": ["KogMaw", "Senna", "Vayne", "Jinx", "Xayah"],
+      "lose": ["Varus", "Lucian", "Draven", "Swain", "Ezreal"]
+    },
+    "Karma": {
+      "win": ["Maokai", "Blitzcrank", "Nautilus", "Yuumi", "Thresh"],
+      "lose": ["Swain", "Pantheon", "Sett", "Lux", "Rell"]
+    },
+    "Karthus": {
+      "win": ["Skarner", "Evelynn", "Gragas", "Taliyah", "Volibear"],
+      "lose": ["JarvanIV", "Lillia", "Amumu", "Sejuani", "Poppy"]
+    },
+    "Kassadin": {
+      "win": ["LeeSin", "Ahri", "Tristana", "Malzahar", "Zed"],
+      "lose": ["Irelia", "Orianna", "Akali", "Katarina", "Zoe"]
+    },
+    "Katarina": {
+      "win": ["Kassadin", "Vladimir", "Jayce", "Zed", "Galio"],
+      "lose": ["Syndra", "Orianna", "Ryze", "Irelia", "Gwen"]
+    },
+    "Kayle": {
+      "win": ["Rengar", "Tryndamere", "Jayce", "Teemo", "Kled"],
+      "lose": ["Kennen", "Warwick", "Rumble", "Volibear", "Gwen"]
+    },
+    "Kayn": {
+      "win": ["Poppy", "Warwick", "Nocturne", "Morgana", "Elise"],
+      "lose": ["Lillia", "Hecarim", "Olaf", "JarvanIV", "DrMundo"]
+    },
+    "Kennen": {
+      "win": ["Kayle", "Rengar", "Poppy", "Urgot", "Teemo"],
+      "lose": ["Singed", "Yone", "Illaoi", "Volibear", "Akali"]
+    },
+    "Khazix": {
+      "win": ["Zac", "Shaco", "Skarner", "Nocturne", "Sejuani"],
+      "lose": ["Graves", "Gwen", "DrMundo", "Lillia", "Rumble"]
+    },
+    "Kindred": {
+      "win": ["Ivern", "Shaco", "Taliyah", "Fiddlesticks", "Elise"],
+      "lose": ["Lillia", "Trundle", "Shyvana", "Hecarim", "Rengar"]
+    },
+    "Kled": {
+      "win": ["Poppy", "Singed", "Shen", "Garen", "Gwen"],
+      "lose": ["Sylas", "Tryndamere", "Renekton", "Gangplank", "Irelia"]
+    },
+    "KogMaw": {
+      "win": ["Senna", "Jinx", "Jhin", "Varus", "MissFortune"],
+      "lose": ["Kalista", "Aphelios", "Xayah", "Ezreal", "Samira"]
+    },
+    "LeeSin": {
+      "win": ["Skarner", "Fiddlesticks", "Nocturne", "Elise", "Udyr"],
+      "lose": ["Hecarim", "Nidalee", "DrMundo", "Lillia", "Rengar"]
+    },
+    "Leona": {
+      "win": ["Bard", "Shaco", "Morgana", "Galio", "Zilean"],
+      "lose": ["Pantheon", "Yuumi", "Gragas", "Sett", "Nautilus"]
+    },
+    "Lillia": {
+      "win": ["Morgana", "Fiddlesticks", "Karthus", "Nunu", "JarvanIV"],
+      "lose": ["Trundle", "Gwen", "Olaf", "Rammus", "Skarner"]
+    },
+    "Lissandra": {
+      "win": ["Rumble", "Qiyana", "Galio", "Zoe", "Lux"],
+      "lose": ["Ryze", "Veigar", "Irelia", "Lucian", "Akali"]
+    },
+    "Lucian": {
+      "win": ["Jinx", "Ashe", "Draven", "Varus", "Senna"],
+      "lose": ["Aphelios", "Xayah", "Ezreal", "Samira", "Tristana"]
+    },
+    "Lulu": {
+      "win": ["Maokai", "Sona", "Bard", "Blitzcrank", "Soraka"],
+      "lose": ["Pantheon", "Sett", "Rell", "Swain", "Shaco"]
+    },
+    "Lux": {
+      "win": ["Shaco", "Zilean", "Maokai", "Braum", "Bard"],
+      "lose": ["Sona", "Sett", "Seraphine", "Galio", "Rakan"]
+    },
+    "Malphite": {
+      "win": ["Sion", "Sylas", "Chogath", "Rumble", "Ornn"],
+      "lose": ["Vayne", "Irelia", "Renekton", "Fiora", "Jax"]
+    },
+    "Malzahar": {
+      "win": ["Ziggs", "Diana", "Talon", "Tristana", "Viktor"],
+      "lose": ["Lucian", "Ryze", "Syndra", "Leblanc", "Orianna"]
+    },
+    "Maokai": {
+      "win": ["Taric", "Shaco", "Swain", "Zyra", "Alistar"],
+      "lose": ["Sett", "Pyke", "Karma", "Seraphine", "Sona"]
+    },
+    "MasterYi": {
+      "win": ["Jax", "Udyr", "Sejuani", "Elise", "Shaco"],
+      "lose": ["Lillia", "Gwen", "Kindred", "Rumble", "Shyvana"]
+    },
+    "MissFortune": {
+      "win": ["Jhin", "Sivir", "Jinx", "Tristana", "Ashe"],
+      "lose": ["Aphelios", "Swain", "Lucian", "Xayah", "Ezreal"]
+    },
+    "Mordekaiser": {
+      "win": ["Quinn", "Rengar", "Singed", "Jax", "Jayce"],
+      "lose": ["Illaoi", "DrMundo", "Irelia", "Renekton", "Volibear"]
+    },
+    "Morgana": {
+      "win": ["Xerath", "Maokai", "Senna", "Sona", "Zilean"],
+      "lose": ["Sett", "Leona", "Zyra", "Swain", "Velkoz"]
+    },
+    "Nami": {
+      "win": ["Maokai", "Zyra", "Xerath", "Thresh", "Braum"],
+      "lose": ["Sett", "Seraphine", "Velkoz", "Swain", "Janna"]
+    },
+    "Nasus": {
+      "win": ["Rengar", "Sylas", "Ornn", "Shen", "Camille"],
+      "lose": ["Gragas", "Jayce", "Illaoi", "Yone", "Vayne"]
+    },
+    "Nautilus": {
+      "win": ["Bard", "Velkoz", "Leona", "Zilean", "Sona"],
+      "lose": ["Yuumi", "Karma", "Sett", "Pantheon", "Lux"]
+    },
+    "Neeko": {
+      "win": ["Velkoz", "Rumble", "Corki", "Tristana", "Ahri"],
+      "lose": ["LeeSin", "Syndra", "Gwen", "Irelia", "Ryze"]
+    },
+    "Nidalee": {
+      "win": ["RekSai", "Elise", "Jarvan", "Evelynn", "Zac"],
+      "lose": ["Lillia", "Graves", "Viego", "Hecarim", "Rumble"]
+    },
+    "Nocturne": {
+      "win": ["Shyvana", "Gragas", "Zac", "Fiddlesticks", "XinZhao"],
+      "lose": ["Gwen", "RekSai", "Ivern", "Graves", "Hecarim"]
+    },
+    "Nunu": {
+      "win": ["Taliyah", "Gwen", "Morgana", "JarvanIV", "Ivern"],
+      "lose": ["Lillia", "Hecarim", "Skarner", "Amumu", "Sejuani"]
+    },
+    "Olaf": {
+      "win": ["Ivern", "Trundle", "Nunu", "Kayn", "Khazix"],
+      "lose": ["Taliyah", "MasterYi", "Hecarim", "DrMundo", "Rammus"]
+    },
+    "Orianna": {
+      "win": ["Ziggs", "Katarina", "Tristana", "Xerath", "Talon"],
+      "lose": ["Gwen", "Ryze", "TwistedFate", "Azir", "Fizz"]
+    },
+    "Ornn": {
+      "win": ["Rengar", "Poppy", "Shen", "Singed", "Wukong"],
+      "lose": ["Renekton", "Viego", "Irelia", "Jayce", "DrMundo"]
+    },
+    "Pantheon": {
+      "win": ["Annie", "Malzahar", "Lux", "Diana", "Corki"],
+      "lose": ["Gwen", "Akali", "LeeSin", "Cassiopeia", "Lucian"]
+    },
+    "Poppy": {
+      "win": ["Morgana", "Elise", "Karthus", "Rammus", "Khazix"],
+      "lose": ["Ekko", "Rengar", "Graves", "JarvanIV", "Lillia"]
+    },
+    "Pyke": {
+      "win": ["Maokai", "Shaco", "Sona", "Bard", "Braum"],
+      "lose": ["Sett", "Velkoz", "Taric", "Lux", "Xerath"]
+    },
+    "Qiyana": {
+      "win": ["Malphite", "Garen", "Annie", "Rumble", "Malzahar"],
+      "lose": ["Lucian", "Ryze", "Orianna", "Lissandra", "Irelia"]
+    },
+    "Quinn": {
+      "win": ["Gragas", "Ornn", "Poppy", "Chogath", "Shen"],
+      "lose": ["Volibear", "Mordekaiser", "Rengar", "Akali", "Gangplank"]
+    },
+    "Rakan": {
+      "win": ["Zilean", "Sona", "Bard", "Taric", "Senna"],
+      "lose": ["Pantheon", "Sett", "Yuumi", "Karma", "Gragas"]
+    },
+    "Rammus": {
+      "win": ["Skarner", "Trundle", "Vi", "Morgana", "RekSai"],
+      "lose": ["Sejuani", "Gragas", "Poppy", "Rengar", "DrMundo"]
+    },
+    "RekSai": {
+      "win": ["Nocturne", "XinZhao", "Taliyah", "Skarner", "Karthus"],
+      "lose": ["Gwen", "Lillia", "Amumu", "Rammus", "Nidalee"]
+    },
+    "Rell": {
+      "win": ["Swain", "Shaco", "Gragas", "Velkoz", "Lulu"],
+      "lose": ["Sett", "Braum", "Pantheon", "Brand", "Nautilus"]
+    },
+    "Renekton": {
+      "win": ["Ornn", "Kled", "Singed", "Urgot", "Malphite"],
+      "lose": ["Yasuo", "Yorick", "Gragas", "Yone", "Jayce"]
+    },
+    "Rengar": {
+      "win": ["Sejuani", "RekSai", "Poppy", "Elise", "Volibear"],
+      "lose": ["Gragas", "Skarner", "Warwick", "Hecarim", "JarvanIV"]
+    },
+    "Riven": {
+      "win": ["Warwick", "Urgot", "Volibear", "Rengar", "Yorick"],
+      "lose": ["Yone", "Akali", "Rumble", "Yasuo", "Irelia"]
+    },
+    "Rumble": {
+      "win": ["Sejuani", "XinZhao", "Gragas", "Evelynn", "Khazix"],
+      "lose": ["Hecarim", "Rammus", "Gwen", "Lillia", "Poppy"]
+    },
+    "Ryze": {
+      "win": ["Viego", "Galio", "Velkoz", "Cassiopeia", "Anivia"],
+      "lose": ["Gwen", "Azir", "Zoe", "Viktor", "Pantheon"]
+    },
+    "Samira": {
+      "win": ["Swain", "Jinx", "Senna", "MissFortune", "KogMaw"],
+      "lose": ["Aphelios", "Yasuo", "Ezreal", "Kalista", "KaiSa"]
+    },
+    "Sejuani": {
+      "win": ["Rammus", "Morgana", "Nunu", "JarvanIV", "Karthus"],
+      "lose": ["Rumble", "Rengar", "MasterYi", "Skarner", "Vi"]
+    },
+    "Senna": {
+      "win": ["Xerath", "Nami", "Bard", "Soraka", "Maokai"],
+      "lose": ["Sett", "Shaco", "Braum", "Galio", "Rakan"]
+    },
+    "Seraphine": {
+      "win": ["Taric", "Maokai", "Zyra", "Xerath", "Nami"],
+      "lose": ["Sett", "Shaco", "Pantheon", "Velkoz", "Rell"]
+    },
+    "Sett": {
+      "win": ["Volibear", "Wukong", "Warwick", "Malphite", "Ornn"],
+      "lose": ["Rumble", "Sylas", "Irelia", "Yasuo", "Viego"]
+    },
+    "Shaco": {
+      "win": ["Nunu", "Skarner", "Fiddlesticks", "Karthus", "Morgana"],
+      "lose": ["Gragas", "Gwen", "Kindred", "Lillia", "Amumu"]
+    },
+    "Shen": {
+      "win": ["Urgot", "DrMundo", "Darius", "Maokai", "Sett"],
+      "lose": ["Irelia", "Yorick", "Viego", "Gangplank", "Gragas"]
+    },
+    "Shyvana": {
+      "win": ["Amumu", "JarvanIV", "Gwen", "Skarner", "DrMundo"],
+      "lose": ["Karthus", "Nidalee", "Nocturne", "Rammus", "Olaf"]
+    },
+    "Singed": {
+      "win": ["Kennen", "Nocturne", "Viego", "Riven", "LeeSin"],
+      "lose": ["Gwen", "Irelia", "Rengar", "Akali", "Sylas"]
+    },
+    "Sion": {
+      "win": ["Darius", "Maokai", "Nocturne", "Riven", "Gwen"],
+      "lose": ["Gragas", "Malphite", "Vladimir", "Akali", "Teemo"]
+    },
+    "Sivir": {
+      "win": ["Swain", "Vayne", "Jinx", "Ashe", "Senna"],
+      "lose": ["Xayah", "Ezreal", "Kalista", "Draven", "Aphelios"]
+    },
+    "Skarner": {
+      "win": ["Nunu", "Morgana", "Rengar", "Sejuani", "Elise"],
+      "lose": ["Rammus", "Karthus", "Warwick", "Nidalee", "LeeSin"]
+    },
+    "Sona": {
+      "win": ["Maokai", "Zyra", "Sett", "Lux", "Pantheon"],
+      "lose": ["Swain", "Shaco", "Pyke", "Karma", "Rakan"]
+    },
+    "Soraka": {
+      "win": ["Sona", "Maokai", "Zilean", "Blitzcrank", "Pantheon"],
+      "lose": ["Taric", "Sett", "Brand", "Lux", "Rell"]
+    },
+    "Swain": {
+      "win": ["Sona", "Zilean", "Karma", "Xerath", "Lulu"],
+      "lose": ["Rell", "Maokai", "Shaco", "Sett", "Nautilus"]
+    },
+    "Sylas": {
+      "win": ["Malzahar", "Annie", "Galio", "Rumble", "Pantheon"],
+      "lose": ["Irelia", "Neeko", "Lucian", "Jayce", "TwistedFate"]
+    },
+    "Syndra": {
+      "win": ["Galio", "Talon", "Neeko", "Katarina", "Rumble"],
+      "lose": ["Gwen", "Ryze", "Lissandra", "Orianna", "Lucian"]
+    },
+    "TahmKench": {
+      "win": ["Singed", "Kled", "Quinn", "Vladimir", "Shen"],
+      "lose": ["Kennen", "Tryndamere", "Kayle", "Rengar", "Vayne"]
+    },
+    "Taliyah": {
+      "win": ["XinZhao", "Evelynn", "Gragas", "Rengar", "Olaf"],
+      "lose": ["Graves", "Nunu", "Hecarim", "Udyr", "Kindred"]
+    },
+    "Talon": {
+      "win": ["Malphite", "Velkoz", "LeeSin", "Viego", "Katarina"],
+      "lose": ["Syndra", "Garen", "Lucian", "Gwen", "Orianna"]
+    },
+    "Taric": {
+      "win": ["Braum", "Soraka", "Janna", "Pyke", "Zilean"],
+      "lose": ["Pantheon", "Seraphine", "Zyra", "Maokai", "Sett"]
+    },
+    "Teemo": {
+      "win": ["Yone", "Kled", "Yasuo", "Volibear", "Sion"],
+      "lose": ["Poppy", "Kayle", "Kennen", "Sylas", "Camille"]
+    },
+    "Thresh": {
+      "win": ["Sona", "Blitzcrank", "Bard", "Zilean", "Maokai"],
+      "lose": ["Sett", "Yuumi", "Pantheon", "Karma", "Nami"]
+    },
+    "Tristana": {
+      "win": ["Jinx", "Sivir", "Draven", "Kaisa", "Caitlyn"],
+      "lose": ["Senna", "Ezreal", "Aphelios", "Xayah", "Kalista"]
+    },
+    "Trundle": {
+      "win": ["Gragas", "Skarner", "Ivern", "Morgana", "Kindred"],
+      "lose": ["Warwick", "Rammus", "Vi", "Amumu", "DrMundo"]
+    },
+    "Tryndamere": {
+      "win": ["Kled", "Poppy", "Wukong", "Warwick", "Darius"],
+      "lose": ["Rumble", "Sylas", "Yone", "Kayle", "Jayce"]
+    },
+    "TwistedFate": {
+      "win": ["Diana", "Yasuo", "Katarina", "Anivia", "Ekko"],
+      "lose": ["Irelia", "Akali", "Zoe", "Lucian", "Lissandra"]
+    },
+    "Twitch": {
+      "win": ["Swain", "Jhin", "Tristana", "Draven", "Jinx"],
+      "lose": ["Xayah", "Ezreal", "Varus", "Lucian", "Kalista"]
+    },
+    "Udyr": {
+      "win": ["Skarner", "RekSai", "Zac", "Morgana", "Nunu"],
+      "lose": ["MasterYi", "Lillia", "Gwen", "Graves", "Viego"]
+    },
+    "Urgot": {
+      "win": ["Darius", "Sion", "Mordekaiser", "Illaoi", "Ornn"],
+      "lose": ["Rengar", "Sylas", "Irelia", "Akali", "Viego"]
+    },
+    "Varus": {
+      "win": ["Jhin", "Twitch", "Kalista", "Draven", "Sivir"],
+      "lose": ["Xayah", "Senna", "Aphelios", "Lucian", "Ezreal"]
+    },
+    "Vayne": {
+      "win": ["Swain", "Jinx", "MissFortune", "KogMaw", "Yasuo"],
+      "lose": ["Kalista", "Xayah", "Ezreal", "Lucian", "Aphelios"]
+    },
+    "Veigar": {
+      "win": ["Rumble", "Velkoz", "Lissandra", "Malzahar", "Azir"],
+      "lose": ["Ryze", "Gwen", "Viego", "Lucian", "Tristana"]
+    },
+    "Velkoz": {
+      "win": ["Shaco", "Yuumi", "Xerath", "Pyke", "Maokai"],
+      "lose": ["Sett", "Rell", "Lux", "Taric", "Nautilus"]
+    },
+    "Vi": {
+      "win": ["Trundle", "Ivern", "Udyr", "Karthus", "Sejuani"],
+      "lose": ["Gwen", "Rammus", "Amumu", "Rumble", "Graves"]
+    },
+    "Viego": {
+      "win": ["Nunu", "Taliyah", "RekSai", "Evelynn", "Fiddlesticks"],
+      "lose": ["Amumu", "Lillia", "Hecarim", "Rengar", "Vi"]
+    },
+    "Viktor": {
+      "win": ["Ekko", "Talon", "Velkoz", "Katarina", "Galio"],
+      "lose": ["Azir", "Gwen", "Neeko", "Irelia", "Lucian"]
+    },
+    "Vladimir": {
+      "win": ["Malzahar", "Galio", "Ahri", "Xerath", "Anivia"],
+      "lose": ["Gwen", "Irelia", "Lucian", "LeeSin", "Ryze"]
+    },
+    "Volibear": {
+      "win": ["Ivern", "Morgana", "Shyvana", "JarvanIV", "Nunu"],
+      "lose": ["Lillia", "Gragas", "Rammus", "Rengar", "Gwen"]
+    },
+    "Warwick": {
+      "win": ["Trundle", "Skarner", "Ivern", "Zac", "Rengar"],
+      "lose": ["Gwen", "Graves", "MasterYi", "DrMundo", "Amumu"]
+    },
+    "Wukong": {
+      "win": ["Singed", "Kled", "Warwick", "Rengar", "Shen"],
+      "lose": ["Yone", "Irelia", "Yasuo", "Tryndamere", "Illaoi"]
+    },
+    "Xayah": {
+      "win": ["Swain", "Sivir", "Varus", "Draven", "Jinx"],
+      "lose": ["Kalista", "Aphelios", "Samira", "Kaisa", "Lucian"]
+    },
+    "Xerath": {
+      "win": ["Bard", "Blitzcrank", "Leona", "Pyke", "Nautilus"],
+      "lose": ["Sett", "Velkoz", "Pantheon", "Swain", "Seraphine"]
+    },
+    "XinZhao": {
+      "win": ["Warwick", "Rammus", "Volibear", "Zac", "Fiddlesticks"],
+      "lose": ["Rumble", "Taliyah", "Hecarim", "JarvanIV", "Gwen"]
+    },
+    "Yasuo": {
+      "win": ["Malphite", "Viego", "Sett", "Lissandra", "Rumble"],
+      "lose": ["Gwen", "Ryze", "Irelia", "Lucian", "TwistedFate"]
+    },
+    "Yone": {
+      "win": ["LeeSin", "Pantheon", "Talon", "Tristana", "Annie"],
+      "lose": ["Ryze", "Gwen", "Orianna", "Irelia", "Zoe"]
+    },
+    "Yorick": {
+      "win": ["Shen", "Yone", "Volibear", "Chogath", "Irelia"],
+      "lose": ["Vladimir", "Kennen", "Teemo", "Rumble", "Poppy"]
+    },
+    "Yuumi": {
+      "win": ["Nautilus", "Leona", "Thresh", "Pantheon", "Galio"],
+      "lose": ["Velkoz", "Brand", "Karma", "Xerah", "Lux"]
+    },
+    "Zac": {
+      "win": ["Nunu", "Morgana", "Gragas", "Taliyah", "Ivern"],
+      "lose": ["Lillia", "Gwen", "Sejuani", "Nidalee", "Olaf"]
+    },
+    "Zed": {
+      "win": ["Viego", "Malphite", "Garen", "LeeSin", "Rumble"],
+      "lose": ["Ryze", "Sett", "Lucian", "Orianna", "Syndra"]
+    },
+    "Ziggs": {
+      "win": ["Pantheon", "Zed", "Tristana", "Corki", "Vladimir"],
+      "lose": ["Orianna", "Azir", "Viego", "Malzahar", "Syndra"]
+    },
+    "Zilean": {
+      "win": ["Bard", "Nami", "Sona", "Senna", "Rell"],
+      "lose": ["Sett", "Braum", "Lux", "Rakan", "Swain"]
+    },
+    "Zoe": {
+      "win": ["Annie", "Neeko", "TwistedFate", "Galio", "Malzahar"],
+      "lose": ["Lucian", "Lissandra", "Gwen", "Irelia", "Anivia"]
+    },
+    "Zyra": {
+      "win": ["Blitzcrank", "Taric", "Leona", "Zilean", "Morgana"],
+      "lose": ["Braum", "Sona", "Seraphine", "Rell", "Nami"]
+    }
+  }
+}
