@@ -176,14 +176,6 @@
       3089,
       3135
     ],
-    "DrMundo": [
-      6664,
-      3111,
-      3065,
-      3075,
-      3143,
-      4401
-    ],
     "Draven": [
       6673,
       3006,
@@ -191,6 +183,14 @@
       3031,
       3036,
       3094
+    ],
+    "DrMundo": [
+      6664,
+      3111,
+      3065,
+      3075,
+      3143,
+      4401
     ],
     "Ekko": [
       3152,
@@ -1594,22 +1594,6 @@
         "Gwen"
       ]
     },
-    "DrMundo": {
-      "win": [
-        "Ivern",
-        "Trundle",
-        "Fiddlesticks",
-        "Khazix",
-        "RekSai"
-      ],
-      "lose": [
-        "Amumu",
-        "JarvanIV",
-        "Mordekaiser",
-        "Rengar",
-        "Hecarim"
-      ]
-    },
     "Draven": {
       "win": [
         "Ashe",
@@ -1624,6 +1608,22 @@
         "Caitlyn",
         "Ezreal",
         "Varus"
+      ]
+    },
+    "DrMundo": {
+      "win": [
+        "Ivern",
+        "Trundle",
+        "Fiddlesticks",
+        "Khazix",
+        "RekSai"
+      ],
+      "lose": [
+        "Amumu",
+        "JarvanIV",
+        "Mordekaiser",
+        "Rengar",
+        "Hecarim"
       ]
     },
     "Ekko": {
