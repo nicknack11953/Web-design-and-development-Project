@@ -14,8 +14,8 @@
             : position == 'bot'
             ? bot
             : position == 'sup'
-            ? mid
-            : 'sup'"
+            ? sup
+            : ''"
           :key="index"
         >
           <router-link
