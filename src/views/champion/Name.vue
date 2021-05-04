@@ -28,7 +28,7 @@
               :class="[classlink, curShow === 'A' ? classActive : null]"
               aria-current="page"
               @click="curShow = 'A'"
-              >รูน</span
+              >สเปล</span
             >
           </li>
           <li class="nav-item">
@@ -57,19 +57,29 @@
       <div class="box_detail">
         <div v-if="curShow === 'A'" class="class-detail">
           <div>
-            <h2>Spell</h2>
-            <div class="row">
-              <div class="col-6 card_box">
-                <div v-for="(document, index) in documents[name].Spell" :key="index">
-                  <img :src="'https://ddragon.leagueoflegends.com/cdn/11.9.1/img/spell/' + summoners[document].image.full" alt="">
-                  <span>{{summoners[document].name}}</span>
-                </div>
-              </div>
-              <div class="col-6">
-
+            <!-- <h2>Spell</h2> -->
+            <!-- <div class="row"> -->
+            <div class="row spell">
+              <div
+                v-for="(document, index) in documents[name].Spell"
+                :key="index"
+                class="col-lg-6 col-12"
+              >
+                <img
+                  :src="
+                    'https://ddragon.leagueoflegends.com/cdn/11.9.1/img/spell/' +
+                    summoners[document].image.full
+                  "
+                  alt=""
+                />
+                <span style="margin-left: 3%">{{
+                  summoners[document].name
+                }}</span>
               </div>
             </div>
-            <div class="row">
+            <!-- <div class="col-6"></div> -->
+            <!-- </div> -->
+            <!-- <div class="row">
               <div
                 class="col-2"
                 v-for="(M_Name, index) in documents[name].M_Name"
@@ -77,7 +87,7 @@
               >
                 <img src="" style="width: 5rem" alt="" />
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div v-else-if="curShow === 'B'" class="class-detail">
@@ -561,6 +571,10 @@ export default {
 .card_box {
   width: 25%;
   margin: 2%;
+}
+
+.spell {
+  align-self: center;
 }
 
 .box_detail {
