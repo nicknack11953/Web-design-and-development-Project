@@ -381,7 +381,7 @@
     "Chogath": {
       "items": [3047, 6662, 3075, 3193, 3083, 4401],
       "Counter": {
-        "win": ["Warwick", "Wukong", "Singed", "DrMundo", "Sett"],
+        "win": ["Warwick", "MonkeyKing", "Singed", "DrMundo", "Sett"],
         "lose": ["Yone", "Malphite", "Kayle", "Gragas", "Irelia"]
       },
       "Spell": ["SummonerFlash", "SummonerTeleport"],
@@ -423,7 +423,7 @@
     "Darius": {
       "items": [3047, 6631, 3053, 3742, 3075, 6333],
       "Counter": {
-        "win": ["Teemo", "Maokai", "Wukong", "Riven", "Quinn"],
+        "win": ["Teemo", "Maokai", "MonkeyKing", "Riven", "Quinn"],
         "lose": ["Yasuo", "Viego", "Sylas", "Akali", "Gnar"]
       },
       "Spell": ["SummonerFlash", "SummonerHaste"],
@@ -1809,7 +1809,7 @@
     "Ornn": {
       "items": [3047, 3068, 3075, 3001, 3193, 3143],
       "Counter": {
-        "win": ["Rengar", "Poppy", "Shen", "Singed", "Wukong"],
+        "win": ["Rengar", "Poppy", "Shen", "Singed", "MonkeyKing"],
         "lose": ["Renekton", "Viego", "Irelia", "Jayce", "DrMundo"]
       },
       "Spell": ["SummonerFlash", "SummonerTeleport"],
@@ -2209,7 +2209,7 @@
     "Sett": {
       "items": [3153, 3047, 6631, 3053, 3075, 3065],
       "Counter": {
-        "win": ["Volibear", "Wukong", "Warwick", "Malphite", "Ornn"],
+        "win": ["Volibear", "MonkeyKing", "Warwick", "Malphite", "Ornn"],
         "lose": ["Rumble", "Sylas", "Irelia", "Yasuo", "Viego"]
       },
       "Spell": ["SummonerFlash", "SummonerTeleport"],
@@ -2602,7 +2602,7 @@
     "Tryndamere": {
       "items": [3006, 6671, 6675, 3031, 6694, 3026],
       "Counter": {
-        "win": ["Kled", "Poppy", "Wukong", "Warwick", "Darius"],
+        "win": ["Kled", "Poppy", "MonkeyKing", "Warwick", "Darius"],
         "lose": ["Rumble", "Sylas", "Yone", "Kayle", "Jayce"]
       },
       "Spell": ["SummonerFlash", "SummonerHaste"],
@@ -2734,7 +2734,7 @@
       "Spell": ["SummonerFlash", "SummonerSmite"],
       "Position": "jungle"
     },
-    "Wukong": {
+    "MonkeyKing": {
       "items": [6632, 3047, 3071, 3053, 6609, 3026],
       "Counter": {
         "win": ["Singed", "Kled", "Warwick", "Rengar", "Shen"],
