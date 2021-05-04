@@ -3258,6 +3258,27 @@
       "Offense": "11",
       "Flex": "21",
       "Defense": "32"
+    },
+    "Rune":{
+      "8000":"perk-images/Styles/7201_Precision.png",
+      "8005":"perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png",
+      "8008":"perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png",
+      "8021":"perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png",
+      "8010":"perk-images/Styles/Precision/Conqueror/Conqueror.png",
+
+      "9101":"perk-images/Styles/Precision/Overheal.png",
+      "9111":"perk-images/Styles/Precision/Triumph.png",
+      "8009":"perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png",
+
+
+      "9104":"perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png",
+      "9105":"perk-images/Styles/Precision/LegendTenacity/LegendTenacity.png",
+      "9103":"perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png"
+
+
+
+
+
     }
   }
 }

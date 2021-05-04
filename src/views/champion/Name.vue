@@ -58,6 +58,21 @@
         <div v-if="curShow === 'A'" class="class-detail">
           <div>
             <h3>รูน</h3>
+              <h2>Main Path</h2>
+              
+              <div class="row">
+              <div class="col-2"   
+              v-for="(M_Name, index) in documents[name].M_Name"
+                  :key="index">
+                <img
+                  src=""
+                  style="width: 5rem"
+                  alt=""
+                />
+              </div>
+              </div>
+            
+              
           </div>
         </div>
         <div v-else-if="curShow === 'B'" class="class-detail">
