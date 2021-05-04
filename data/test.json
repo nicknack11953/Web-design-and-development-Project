@@ -2570,7 +2570,19 @@
         "lose": ["Poppy", "Kayle", "Kennen", "Sylas", "Camille"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "top"
+      "M_Name": "8000",
+      "Keystone": "8005",
+      "M_Rune1": "9111",
+      "M_Rune2": "9104",
+      "M_Rune3": "8299",
+      "S_Name": "8100",
+      "S_Rune1": "8126",
+      "S_Rune2": "8135",
+      "Position": "top",
+      "Tier": "B",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "33"
     },
     "Thresh": {
       "items": [3117, 3190, 3050, 3109, 4641, 4643],
@@ -2579,7 +2591,19 @@
         "lose": ["Sett", "Yuumi", "Pantheon", "Karma", "Nami"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "sup"
+      "M_Name": "8400",
+    "Keystone": "8465",
+    "M_Rune1": "8463",
+    "M_Rune2": "8473",
+    "M_Rune3": "8242",
+    "S_Name": "8300",
+    "S_Rune1": "8345",
+    "S_Rune2": "8347",
+    "Position": "sup",
+    "Tier": "S+",
+    "Offense": "11",
+    "Flex": "21",
+    "Defense": "32"
     },
     "Tristana": {
       "items": [6672, 3006, 3046, 3031, 3026, 3072],
@@ -2588,7 +2612,19 @@
         "lose": ["Senna", "Ezreal", "Aphelios", "Xayah", "Kalista"]
       },
       "Spell": ["SummonerFlash", "SummonerHeal"],
-      "Position": "bot"
+      "M_Name": "8100",
+      "Keystone": "9923",
+      "M_Rune1": "8139",
+      "M_Rune2": "8138",
+      "M_Rune3": "8135",
+      "S_Name": "8000",
+      "S_Rune1": "9111",
+      "S_Rune2": "9104",
+      "Position": "bot",
+      "Tier": "S+",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Trundle": {
       "items": [3047, 6662, 3748, 3075, 3065, 3053],
@@ -2597,7 +2633,19 @@
         "lose": ["Warwick", "Rammus", "Vi", "Amumu", "DrMundo"]
       },
       "Spell": ["SummonerFlash", "SummonerSmite"],
-      "Position": "jungle"
+      "M_Name": "8000",
+      "Keystone": "8005",
+      "M_Rune1": "9111",
+      "M_Rune2": "9105",
+      "M_Rune3": "8014",
+      "S_Name": "8200",
+      "S_Rune1": "8275",
+      "S_Rune2": "8232",
+      "Position": "jungle",
+      "Tier": "B",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Tryndamere": {
       "items": [3006, 6671, 6675, 3031, 6694, 3026],
@@ -2606,7 +2654,19 @@
         "lose": ["Rumble", "Sylas", "Yone", "Kayle", "Jayce"]
       },
       "Spell": ["SummonerFlash", "SummonerHaste"],
-      "Position": "mid"
+      "M_Name": "8000",
+      "Keystone": "8008",
+      "M_Rune1": "9111",
+      "M_Rune2": "9105",
+      "M_Rune3": "8299",
+      "S_Name": "8400",
+      "S_Rune1": "8444",
+      "S_Rune2": "8242",
+      "Position": "mid",
+      "Tier": "B",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "33"
     },
     "TwistedFate": {
       "items": [3158, 6656, 3100, 3094, 3041, 3157],
@@ -2615,7 +2675,19 @@
         "lose": ["Irelia", "Akali", "Zoe", "Lucian", "Lissandra"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "mid"
+      "M_Name": "8100",
+      "Keystone": "8112",
+      "M_Rune1": "8139",
+      "M_Rune2": "8138",
+      "M_Rune3": "8135",
+      "S_Name": "8300",
+      "S_Rune1": "8316",
+      "S_Rune2": "8352",
+      "Position": "mid",
+      "Tier": "D",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Twitch": {
       "items": [3006, 6672, 3085, 3031, 3036, 3026],
@@ -2624,7 +2696,19 @@
         "lose": ["Xayah", "Ezreal", "Varus", "Lucian", "Kalista"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "bot"
+      "M_Name": "8000",
+    "Keystone": "8005",
+    "M_Rune1": "9111",
+    "M_Rune2": "9104",
+    "M_Rune3": "8014",
+    "S_Name": "8200",
+    "S_Rune1": "8226",
+    "S_Rune2": "8233",
+    "Position": "bot",
+    "Tier": "A",
+    "Offense": "12",
+    "Flex": "21",
+    "Defense": "32"
     },
     "Udyr": {
       "items": [3158, 6664, 3742, 4401, 3075, 3143],
@@ -2633,7 +2717,19 @@
         "lose": ["MasterYi", "Lillia", "Gwen", "Graves", "Viego"]
       },
       "Spell": ["SummonerFlash", "SummonerSmite"],
-      "Position": "jungle"
+      "M_Name": "8200",
+      "Keystone": "8230",
+      "M_Rune1": "8230",
+      "M_Rune2": "8234",
+      "M_Rune3": "8232",
+      "S_Name": "8000",
+      "S_Rune1": "9111",
+      "S_Rune2": "9104",
+      "Position": "jungle",
+      "Tier": "S+",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Urgot": {
       "items": [3047, 3748, 6631, 3053, 3075, 3193],
@@ -2642,7 +2738,19 @@
         "lose": ["Rengar", "Sylas", "Irelia", "Akali", "Viego"]
       },
       "Spell": ["SummonerFlash", "SummonerTeleport"],
-      "Position": "top"
+      "M_Name": "8000",
+      "Keystone": "8005",
+      "M_Rune1": "9111",
+      "M_Rune2": "9105",
+      "M_Rune3": "8299",
+      "S_Name": "8400",
+      "S_Rune1": "8473",
+      "S_Rune2": "8451",
+      "Position": "top",
+      "Tier": "S+",
+      "Offense": "11",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Varus": {
       "items": [6691, 3158, 3004, 6694, 3814, 3026],
@@ -2651,7 +2759,19 @@
         "lose": ["Xayah", "Senna", "Aphelios", "Lucian", "Ezreal"]
       },
       "Spell": ["SummonerFlash", "SummonerHeal"],
-      "Position": "bot"
+      "M_Name": "8100",
+      "Keystone": "9923",
+      "M_Rune1": "8139",
+      "M_Rune2": "8138",
+      "M_Rune3": "8106",
+      "S_Name": "8300",
+      "S_Rune1": "8304",
+      "S_Rune2": "8345",
+      "Position": "bot",
+      "Tier": "B",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Vayne": {
       "items": [3006, 6672, 3046, 3031, 3026, 3072],
@@ -2660,7 +2780,19 @@
         "lose": ["Kalista", "Xayah", "Ezreal", "Lucian", "Aphelios"]
       },
       "Spell": ["SummonerFlash", "SummonerHeal"],
-      "Position": "bot"
+      "M_Name": "8000",
+      "Keystone": "8005",
+      "M_Rune1": "9111",
+      "M_Rune2": "9104",
+      "M_Rune3": "8014",
+      "S_Name": "8100",
+      "S_Rune1": "8139",
+      "S_Rune2": "8135",
+      "Position": "bot",
+      "Tier": "S+",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Veigar": {
       "items": [6656, 3020, 3157, 3089, 3135, 3102],
@@ -2669,7 +2801,19 @@
         "lose": ["Ryze", "Gwen", "Viego", "Lucian", "Tristana"]
       },
       "Spell": ["SummonerFlash", "SummonerBarrier"],
-      "Position": "bot"
+      "M_Name": "8100",
+      "Keystone": "8112",
+      "M_Rune1": "8139",
+      "M_Rune2": "8138",
+      "M_Rune3": "8106",
+      "S_Name": "8200",
+      "S_Rune1": "8226",
+      "S_Rune2": "8210",
+      "Position": "bot",
+      "Tier": "A",
+      "Offense": "13",
+      "Flex": "21",
+      "Defense": "33"
     },
     "Velkoz": {
       "items": [3020, 6655, 3157, 3165, 4628, 4643],
@@ -2678,7 +2822,19 @@
         "lose": ["Sett", "Rell", "Lux", "Taric", "Nautilus"]
       },
       "Spell": ["SummonerExhaust", "SummonerFlash"],
-      "Position": "mid"
+      "M_Name": "8200",
+      "Keystone": "8229",
+      "M_Rune1": "8226",
+      "M_Rune2": "8210",
+      "M_Rune3": "8237",
+      "S_Name": "8300",
+      "S_Rune1": "8313",
+      "S_Rune2": "8345",
+      "Position": "mid",
+      "Tier": "A",
+      "Offense": "13",
+      "Flex": "21",
+      "Defense": "31"
     },
     "Vi": {
       "items": [3078, 3047, 3053, 6333, 3026, 6609],
@@ -2687,7 +2843,21 @@
         "lose": ["Gwen", "Rammus", "Amumu", "Rumble", "Graves"]
       },
       "Spell": ["SummonerFlash", "SummonerSmite"],
-      "Position": "jungle"
+      "Spell1": "SummonerFlash",
+      "Spell2": "SummonerSmite",
+      "M_Name": "8100",
+      "Keystone": "9923",
+      "M_Rune1": "8143",
+      "M_Rune2": "8138",
+      "M_Rune3": "8105",
+      "S_Name": "8000",
+      "S_Rune1": "9111",
+      "S_Rune2": "9104",
+      "Position": "jungle",
+      "Tier": "B",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Viego": {
       "items": [6672, 3047, 3153, 3053, 3026, 6333],
@@ -2696,7 +2866,19 @@
         "lose": ["Amumu", "Lillia", "Hecarim", "Rengar", "Vi"]
       },
       "Spell": ["SummonerFlash", "SummonerSmite"],
-      "Position": "jungle"
+      "M_Name": "8000",
+      "Keystone": "8010",
+      "M_Rune1": "9111",
+      "M_Rune2": "9104",
+      "M_Rune3": "8014",
+      "S_Name": "8100",
+      "S_Rune1": "8143",
+      "S_Rune2": "8135",
+      "Position": "jungle",
+      "Tier": "B",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Viktor": {
       "items": [6655, 3020, 3100, 3157, 3089, 3135],
@@ -2705,7 +2887,19 @@
         "lose": ["Azir", "Gwen", "Neeko", "Irelia", "Lucian"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "mid"
+      "M_Name": "8200",
+      "Keystone": "8230",
+      "M_Rune1": "8226",
+      "M_Rune2": "8210",
+      "M_Rune3": "8236",
+      "S_Name": "8300",
+      "S_Rune1": "8304",
+      "S_Rune2": "8345",
+      "Position": "mid",
+      "Tier": "B",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Vladimir": {
       "items": [3152, 3020, 3041, 3089, 3157, 3135],
@@ -2714,7 +2908,19 @@
         "lose": ["Gwen", "Irelia", "Lucian", "LeeSin", "Ryze"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "mid"
+      "M_Name": "8200",
+      "Keystone": "8230",
+      "M_Rune1": "8275",
+      "M_Rune2": "8210",
+      "M_Rune3": "8236",
+      "S_Name": "8300",
+      "S_Rune1": "8304",
+      "S_Rune2": "8347",
+      "Position": "mid",
+      "Tier": "S+",
+      "Offense": "13",
+      "Flex": "21",
+      "Defense": "31"
     },
     "Volibear": {
       "items": [3158, 6664, 3742, 3075, 3143, 3053],
@@ -2723,7 +2929,19 @@
         "lose": ["Lillia", "Gragas", "Rammus", "Rengar", "Gwen"]
       },
       "Spell": ["SummonerFlash", "SummonerSmite"],
-      "Position": "jungle"
+      "M_Name": "8000",
+      "Keystone": "8005",
+      "M_Rune1": "9111",
+      "M_Rune2": "9104",
+      "M_Rune3": "8299",
+      "S_Name": "8200",
+      "S_Rune1": "8234",
+      "S_Rune2": "8232",
+      "Position": "jungle",
+      "Tier": "A",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Warwick": {
       "items": [3047, 6632, 3748, 3075, 3053, 3026],
@@ -2732,16 +2950,40 @@
         "lose": ["Gwen", "Graves", "MasterYi", "DrMundo", "Amumu"]
       },
       "Spell": ["SummonerFlash", "SummonerSmite"],
-      "Position": "jungle"
+      "M_Name": "8000",
+      "Keystone": "8005",
+      "M_Rune1": "9111",
+      "M_Rune2": "9104",
+      "M_Rune3": "8299",
+      "S_Name": "8200",
+      "S_Rune1": "8234",
+      "S_Rune2": "8232",
+      "Position": "jungle",
+      "Tier": "A",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
-    "Wukong": {
+    "MonkeyKing": {
       "items": [6632, 3047, 3071, 3053, 6609, 3026],
       "Counter": {
         "win": ["Singed", "Kled", "Warwick", "Rengar", "Shen"],
         "lose": ["Yone", "Irelia", "Yasuo", "Tryndamere", "Illaoi"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "top"
+      "M_Name": "8000",
+    "Keystone": "8010",
+    "M_Rune1": "9111",
+    "M_Rune2": "9105",
+    "M_Rune3": "8299",
+    "S_Name": "8300",
+    "S_Rune1": "8304",
+    "S_Rune2": "8345",
+    "Position": "top",
+    "Tier": "S",
+    "Offense": "11",
+    "Flex": "21",
+    "Defense": "32"
     },
     "Xayah": {
       "items": [6671, 3006, 3508, 3031, 3036, 3026],
@@ -2750,7 +2992,19 @@
         "lose": ["Kalista", "Aphelios", "Samira", "Kaisa", "Lucian"]
       },
       "Spell": ["SummonerFlash", "SummonerHeal"],
-      "Position": "bot"
+      "M_Name": "8000",
+      "Keystone": "8008",
+      "M_Rune1": "8009",
+      "M_Rune2": "9103",
+      "M_Rune3": "8014",
+      "S_Name": "8300",
+      "S_Rune1": "8304",
+      "S_Rune2": "8345",
+      "Position": "bot",
+      "Tier": "D",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Xerath": {
       "items": [6655, 3020, 4628, 3041, 3135, 3089],
@@ -2759,7 +3013,19 @@
         "lose": ["Sett", "Velkoz", "Pantheon", "Swain", "Seraphine"]
       },
       "Spell": ["SummonerFlash", "SummonerBarrier"],
-      "Position": "mid"
+      "M_Name": "8200",
+      "Keystone": "8229",
+      "M_Rune1": "8226",
+      "M_Rune2": "8210",
+      "M_Rune3": "8237",
+      "S_Name": "8000",
+      "S_Rune1": "8009",
+      "S_Rune2": "8014",
+      "Position": "mid",
+      "Tier": "A",
+      "Offense": "11",
+      "Flex": "21",
+      "Defense": "32"
     },
     "XinZhao": {
       "items": [6692, 3111, 3053, 3026, 6333, 3091],
@@ -2768,7 +3034,19 @@
         "lose": ["Rumble", "Taliyah", "Hecarim", "JarvanIV", "Gwen"]
       },
       "Spell": ["SummonerFlash", "SummonerSmite"],
-      "Position": "jungle"
+      "M_Name": "8100",
+      "Keystone": "9923",
+      "M_Rune1": "8143",
+      "M_Rune2": "8138",
+      "M_Rune3": "8105",
+      "S_Name": "8000",
+      "S_Rune1": "9111",
+      "S_Rune2": "9104",
+      "Position": "jungle",
+      "Tier": "S",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Yasuo": {
       "items": [3006, 6673, 3031, 3072, 3026, 6333],
@@ -2777,7 +3055,19 @@
         "lose": ["Gwen", "Ryze", "Irelia", "Lucian", "TwistedFate"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "bot"
+      "M_Name": "8000",
+      "Keystone": "8010",
+      "M_Rune1": "9111",
+      "M_Rune2": "9104",
+      "M_Rune3": "8014",
+      "S_Name": "8100",
+      "S_Rune1": "8139",
+      "S_Rune2": "8135",
+      "Position": "bot",
+      "Tier": "A",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Yone": {
       "items": [3006, 6673, 3031, 3072, 3026, 6333],
@@ -2786,7 +3076,19 @@
         "lose": ["Ryze", "Gwen", "Orianna", "Irelia", "Zoe"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "mid"
+      "M_Name": "8000",
+      "Keystone": "8010",
+      "M_Rune1": "9111",
+      "M_Rune2": "9104",
+      "M_Rune3": "8014",
+      "S_Name": "8100",
+      "S_Rune1": "8139",
+      "S_Rune2": "8135",
+      "Position": "mid",
+      "Tier": "D",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Yorick": {
       "items": [6632, 3047, 3053, 3748, 3065, 3075],
@@ -2795,7 +3097,19 @@
         "lose": ["Vladimir", "Kennen", "Teemo", "Rumble", "Poppy"]
       },
       "Spell": ["SummonerFlash", "SummonerTeleport"],
-      "Position": "top"
+      "M_Name": "8400",
+      "Keystone": "8437",
+      "M_Rune1": "8446",
+      "M_Rune2": "8473",
+      "M_Rune3": "8451",
+      "S_Name": "8000",
+      "S_Rune1": "9111",
+      "S_Rune2": "8299",
+      "Position": "top",
+      "Tier": "B",
+      "Offense": "11",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Yuumi": {
       "items": [6617, 6616, 3504, 3041, 3222, 4641],
@@ -2804,7 +3118,19 @@
         "lose": ["Velkoz", "Brand", "Karma", "Xerah", "Lux"]
       },
       "Spell": ["SummonerHeal", "SummonerDot"],
-      "Position": "sup"
+      "M_Name": "8200",
+      "Keystone": "8214",
+      "M_Rune1": "8226",
+      "M_Rune2": "8210",
+      "M_Rune3": "8237",
+      "S_Name": "8000",
+      "S_Rune1": "8009",
+      "S_Rune2": "8017",
+      "Position": "sup",
+      "Tier": "D",
+      "Offense": "11",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Zac": {
       "items": [3068, 3047, 3075, 3065, 3083, 3041],
@@ -2813,7 +3139,19 @@
         "lose": ["Lillia", "Gwen", "Sejuani", "Nidalee", "Olaf"]
       },
       "Spell": ["SummonerFlash", "SummonerSmite"],
-      "Position": "jungle"
+      "M_Name": "8400",
+      "Keystone": "8439",
+      "M_Rune1": "8463",
+      "M_Rune2": "8429",
+      "M_Rune3": "8453",
+      "S_Name": "8000",
+      "S_Rune1": "9111",
+      "S_Rune2": "9105",
+      "Position": "jungle",
+      "Tier": "A",
+      "Offense": "13",
+      "Flex": "22",
+      "Defense": "31"
     },
     "Zed": {
       "items": [6692, 3158, 6676, 6694, 3814, 3026],
@@ -2822,7 +3160,19 @@
         "lose": ["Ryze", "Sett", "Lucian", "Orianna", "Syndra"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "mid"
+      "M_Name": "8100",
+      "Keystone": "8112",
+      "M_Rune1": "8139",
+      "M_Rune2": "8138",
+      "M_Rune3": "8106",
+      "S_Name": "8200",
+      "S_Rune1": "8224",
+      "S_Rune2": "8210",
+      "Position": "mid",
+      "Tier": "S+",
+      "Offense": "11",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Ziggs": {
       "items": [6655, 3020, 4628, 3089, 3157, 3135],
@@ -2831,7 +3181,19 @@
         "lose": ["Orianna", "Azir", "Viego", "Malzahar", "Syndra"]
       },
       "Spell": ["SummonerFlash", "SummonerBarrier"],
-      "Position": "mid"
+      "M_Name": "8200",
+      "Keystone": "8229",
+      "M_Rune1": "8226",
+      "M_Rune2": "8210",
+      "M_Rune3": "8237",
+      "S_Name": "8300",
+      "S_Rune1": "8304",
+      "S_Rune2": "8347",
+      "Position": "mid",
+      "Tier": "B",
+      "Offense": "11",
+      "Flex": "21",
+      "Defense": "33"
     },
     "Zilean": {
       "items": [3158, 7020, 4629, 4641, 4643, 3011],
@@ -2840,7 +3202,20 @@
         "lose": ["Sett", "Braum", "Lux", "Rakan", "Swain"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "sup"
+      "M_Name": "8400",
+    "Keystone": "8465",
+    "M_Rune1": "8463",
+    "M_Rune2": "8473",
+    "M_Rune3": "8242",
+    "S_Name": "8200",
+    "S_Rune1": "8226",
+    "S_Rune2": "8210",
+    "Position": "sup",
+    "Tier": "A",
+    "Offense": "13",
+    "Flex": "21",
+    "Defense": "32"
+
     },
     "Zoe": {
       "items": [3020, 6655, 3041, 4628, 3157, 3135],
@@ -2849,7 +3224,19 @@
         "lose": ["Lucian", "Lissandra", "Gwen", "Irelia", "Anivia"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "mid"
+      "M_Name": "8100",
+      "Keystone": "8112",
+      "M_Rune1": "8139",
+      "M_Rune2": "8138",
+      "M_Rune3": "8135",
+      "S_Name": "8200",
+      "S_Rune1": "8275",
+      "S_Rune2": "8210",
+      "Position": "mid",
+      "Tier": "B",
+      "Offense": "12",
+      "Flex": "21",
+      "Defense": "32"
     },
     "Zyra": {
       "items": [3020, 6653, 3157, 3165, 4641, 3089],
@@ -2858,7 +3245,19 @@
         "lose": ["Braum", "Sona", "Seraphine", "Rell", "Nami"]
       },
       "Spell": ["SummonerFlash", "SummonerDot"],
-      "Position": "mid"
+      "M_Name": "8200",
+      "Keystone": "8229",
+      "M_Rune1": "8226",
+      "M_Rune2": "8210",
+      "M_Rune3": "8237",
+      "S_Name": "8100",
+      "S_Rune1": "8139",
+      "S_Rune2": "8106",
+      "Position": "sup",
+      "Tier": "B",
+      "Offense": "11",
+      "Flex": "21",
+      "Defense": "32"
     }
   }
 }
