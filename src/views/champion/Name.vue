@@ -54,7 +54,7 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div class="box_detail">
         <div v-if="curShow === 'A'" class="class-detail">
           <div>
             <h3>รูน</h3>
@@ -124,9 +124,9 @@
         </div>
         <div v-else-if="curShow === 'C'" class="class-detail">
           <div>
-            <div class="row">
+            <div class="row item_box">
               <div
-                class="col-2"
+                class="col-lg-2 col-4 item"
                 v-for="(getItem, index) in documents[name].items"
                 :key="index"
               >
@@ -288,6 +288,12 @@ export default {
   margin: 2%;
 }
 
+.box_detail {
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
 .card-body {
   padding: 5%;
   margin: 5%;
@@ -301,6 +307,17 @@ export default {
 
 .des_box {
   margin-top: 1%;
+}
+
+/* .item_box {
+  display: flex;
+  justify-content: center;
+} */
+
+.item {
+  margin: 1% 0% 1% 0%;
+  display: flex;
+  justify-content: center;
 }
 
 .box {
@@ -325,13 +342,13 @@ export default {
 }
 
 .detail-nav {
-  background: #4d648d;
+  background: #030608;
   color: white;
 }
 
 .active {
-  background: #283655 !important;
-  color: white !important;
+  background: #323440 !important;
+  color: #d0a85c !important;
 }
 
 .nav-tabs .nav-link {
@@ -339,7 +356,7 @@ export default {
 }
 
 .class-detail {
-  background: #283655;
+  background: #323440;
   color: white;
   padding: 1%;
 }
