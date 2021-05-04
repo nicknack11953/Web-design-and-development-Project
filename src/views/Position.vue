@@ -8,8 +8,8 @@
           v-for="(detail, index) in details.data"
           :key="index"
         >
-          <router-link :to="{ name: 'Name', params: { name: detail.id } }">
-            <div class="card">
+          <router-link v-if="fillter(detail.id)" :to="{ name: 'Name', params: { name: detail.id } }">
+            <div  class="card">
               <img
                 class="card-img-top"
                 v-bind:src="
@@ -25,7 +25,6 @@
         </div>
       </div>
     </div>
-    
   </div>
 </template>
 
@@ -40,14 +39,15 @@ export default {
         "https://ddragon.leagueoflegends.com/cdn/11.9.1/data/th_TH/champion.json",
       details: {},
       documents: {},
-      test: "",
     };
   },
   firebase: {
     documents: db.ref("data"),
   },
-  computed: {
-  
+  methods: {
+    fillter(name) {
+      return this.documents[name]
+    },
   },
   mounted() {
     fetch(this.api)
