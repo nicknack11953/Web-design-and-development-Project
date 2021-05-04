@@ -57,22 +57,27 @@
       <div class="box_detail">
         <div v-if="curShow === 'A'" class="class-detail">
           <div>
-            <h3>รูน</h3>
-              <h2>Main Path</h2>
-              
-              <div class="row">
-              <div class="col-2"   
-              v-for="(M_Name, index) in documents[name].M_Name"
-                  :key="index">
-                <img
-                  src=""
-                  style="width: 5rem"
-                  alt=""
-                />
+            <h2>Spell</h2>
+            <div class="row">
+              <div class="col-6 card_box">
+                <div v-for="(document, index) in documents[name].Spell" :key="index">
+                  <img :src="'https://ddragon.leagueoflegends.com/cdn/11.9.1/img/spell/' + summoners[document].image.full" alt="">
+                  <span>{{summoners[document].name}}</span>
+                </div>
               </div>
+              <div class="col-6">
+
               </div>
-            
-              
+            </div>
+            <div class="row">
+              <div
+                class="col-2"
+                v-for="(M_Name, index) in documents[name].M_Name"
+                :key="index"
+              >
+                <img src="" style="width: 5rem" alt="" />
+              </div>
+            </div>
           </div>
         </div>
         <div v-else-if="curShow === 'B'" class="class-detail">
@@ -504,14 +509,17 @@ export default {
         "https://ddragon.leagueoflegends.com/cdn/11.9.1/data/th_TH/item.json",
       apiCounters:
         "https://ddragon.leagueoflegends.com/cdn/11.9.1/data/th_TH/champion.json",
+      apiSummoner:
+        "https://ddragon.leagueoflegends.com/cdn/11.9.1/data/th_TH/summoner.json",
       champion: {},
       item: {},
       counters: {},
       documents: {},
+      summoners: {},
       classlink: "nav-link",
       classActive: "active",
       classDetail: "class-detail",
-      curShow: "B",
+      curShow: "A",
     };
   },
   computed: {
@@ -534,6 +542,10 @@ export default {
     fetch(this.apiCounters)
       .then((res) => res.json())
       .then((data) => (this.counters = data.data))
+      .catch((err) => console.log(err.message));
+    fetch(this.apiSummoner)
+      .then((res) => res.json())
+      .then((data) => (this.summoners = data.data))
       .catch((err) => console.log(err.message));
   },
   updated() {},
