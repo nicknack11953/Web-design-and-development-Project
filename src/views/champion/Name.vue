@@ -13,14 +13,14 @@
 
       <div class="col-sm-12 col-lg-10">
         <div>
-          <h1>{{ champion[name].name }}</h1>
+          <h1 class="champ_name">{{ champion[name].name }}</h1>
         </div>
         <div>
-          <p>{{ champion[name].title }}</p>
+          <p class="champ_title">{{ champion[name].title }}</p>
         </div>
       </div>
     </div>
-    <div style="margin-top: 3rem">
+    <div class="des_box">
       <div>
         <ul class="nav nav-tabs nav-fill detail-nav">
           <li class="nav-item">
@@ -66,9 +66,9 @@
               <h3 class="text-center-card win">
                 แชมป์เปียนที่ชนะทาง {{ name }}
               </h3>
-              <div class="row">
+              <div class="row winbox">
                 <div
-                  class="col-4"
+                  class="col-4 card_box"
                   v-for="(listCounter, index) in documents[name].Counter.win"
                   :key="index"
                 >
@@ -83,7 +83,9 @@
                     />
                   </div>
                   <div class="card-body">
-                    <label class="card-text">{{ counters[listCounter].name }}</label>
+                    <label class="card-text">{{
+                      counters[listCounter].name
+                    }}</label>
                   </div>
                 </div>
               </div>
@@ -93,23 +95,27 @@
                 <h3 class="text-center-card lose">
                   แชมป์เปียนที่แพ้ทาง {{ name }}
                 </h3>
-                <div
-                  class="col-4"
-                  v-for="(listCounter, index) in documents[name].Counter.lose"
-                  :key="index"
-                >
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      v-bind:src="
-                        'https://ddragon.leagueoflegends.com/cdn/11.9.1/img/champion/' +
-                        counters[listCounter].image.full
-                      "
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <label class="card-text">{{ counters[listCounter].name }}</label>
+                <div class="row winbox">
+                  <div
+                    class="col-4 card_box"
+                    v-for="(listCounter, index) in documents[name].Counter.lose"
+                    :key="index"
+                  >
+                    <div class="card">
+                      <img
+                        class="card-img-top"
+                        v-bind:src="
+                          'https://ddragon.leagueoflegends.com/cdn/11.9.1/img/champion/' +
+                          counters[listCounter].image.full
+                        "
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body">
+                      <label class="card-text">{{
+                        counters[listCounter].name
+                      }}</label>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -217,8 +223,7 @@
         </div>
       </div>
     </div>
-    <div>
-    </div>
+    <div></div>
   </div>
 </template>
 
@@ -273,14 +278,46 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 .nav-item span {
   cursor: pointer;
 }
+
+.card_box {
+  width: 25%;
+  margin: 2%;
+}
+
+.card-body {
+  padding: 5%;
+  margin: 5%;
+  text-align: center;
+}
+
+.winbox {
+  display: flex;
+  justify-content: center;
+}
+
+.des_box {
+  margin-top: 1%;
+}
+
 .box {
   width: 48px;
   height: 48px;
   background: #d0e1f9;
   border: 1px solid white;
+}
+
+.champ_name {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.champ_title {
+  color: #ffffff;
+  font-size: 30px;
 }
 
 .head-box {
@@ -304,16 +341,18 @@ export default {
 .class-detail {
   background: #283655;
   color: white;
-  padding: 4rem;
+  padding: 1%;
 }
 
 .text-center-card {
   text-align: center;
+  margin: 1%;
 }
 
 .text-center-card.win {
   color: #3cf894;
 }
+
 .text-center-card.lose {
   color: #fc393e;
 }
