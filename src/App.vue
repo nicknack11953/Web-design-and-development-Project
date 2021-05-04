@@ -28,4 +28,9 @@ export default {
 };
 </script>
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #1e1f26;
+}
 </style>
