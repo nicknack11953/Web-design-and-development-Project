@@ -7,7 +7,7 @@
     <input
       type="search"
       class="form-control me-2"
-      style="width: 300px"
+      style="width: 100%"
       placeholder="กรุณาใส่ชื่อตัวละครที่ต้องการ"
       id="myInput"
       v-model="selection"

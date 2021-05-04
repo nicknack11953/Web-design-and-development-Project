@@ -1,12 +1,12 @@
 <template>
   <div class="container test" style="padding-top: 4rem">
-    <h1>รายการระดับ</h1>
+    <h1 style="color: #d0a85c">ตารางระดับ</h1>
     <div class="row detail-header" v-for="(tier, index) in tiers" :key="index">
-      <div class="col-1">
+      <div class="col-1" style="background-color: #d0a85c">
         <h1>{{ tier }}</h1>
       </div>
       <div class="col-11">
-        <div class="row">
+        <div class="row" style="background-color: #323440">
           <div
             class="col-1 detail-tier"
             v-for="(name, index) in tier == 'S+'
@@ -25,7 +25,7 @@
             :key="index"
           >
             <router-link :to="{ name: 'Name', params: { name: name } }">
-              <div class="card">
+              <div class="card" style="height: 100%">
                 <img
                   class="card-img-top"
                   :src="
@@ -246,7 +246,7 @@ export default {
   color: black;
   text-decoration: none;
 }
-.detail-header{
+.detail-header {
   padding: 1.5rem 0;
 }
 </style>

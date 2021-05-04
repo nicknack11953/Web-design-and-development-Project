@@ -50,7 +50,9 @@
               >
             </li>
             <li class="navbar-item posit">
-              <router-link :to="'/list'" class="nav-link">ตารางระดับ</router-link>
+              <router-link :to="'/list'" class="nav-link"
+                >ตารางระดับ</router-link
+              >
             </li>
           </ul>
         </div>
