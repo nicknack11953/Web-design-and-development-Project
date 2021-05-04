@@ -26,6 +26,7 @@
                 placeholder="กรุณาใส่ชื่อตัวละครที่ต้องการ"
                 onkeyup="searchChamp()"
                 id="myInput"
+                v-model="message"
               />
               <button class="searchbtn btn btn-outline-light" type="submit">
                 ค้นหา
@@ -46,6 +47,10 @@
         </div>
       </div>
     </nav>
+    <br>
+    <br>
+    <br>
+    {{message}}
   </div>
 </template>
 
@@ -64,6 +69,7 @@ export default {
         { title: "รายการระดับ", link: "list" },
       ],
       class: "navbar-item posit",
+      message: "",
     };
   },
 };

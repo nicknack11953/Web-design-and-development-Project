@@ -63,11 +63,13 @@
         <div v-else-if="curShow === 'B'" class="class-detail">
           <div class="row">
             <div class="col-6">
-              <h3 class="text-center-card win">แชมป์เปียนที่ชนะทาง {{ name }}</h3>
+              <h3 class="text-center-card win">
+                แชมป์เปียนที่ชนะทาง {{ name }}
+              </h3>
               <div class="row">
                 <div
                   class="col-4"
-                  v-for="(listCounter, index) in listCounters.win"
+                  v-for="(listCounter, index) in documents[name].Counter.win"
                   :key="index"
                 >
                   <div class="card">
@@ -81,17 +83,19 @@
                     />
                   </div>
                   <div class="card-body">
-                    <label class="card-text">{{ listCounter }}</label>
+                    <label class="card-text">{{ counters[listCounter].name }}</label>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-6">
               <div class="row">
-                <h3 class="text-center-card lose">แชมป์เปียนที่แพ้ทาง {{ name }}</h3>
+                <h3 class="text-center-card lose">
+                  แชมป์เปียนที่แพ้ทาง {{ name }}
+                </h3>
                 <div
                   class="col-4"
-                  v-for="(listCounter, index) in listCounters.lose"
+                  v-for="(listCounter, index) in documents[name].Counter.lose"
                   :key="index"
                 >
                   <div class="card">
@@ -105,7 +109,7 @@
                     />
                   </div>
                   <div class="card-body">
-                    <label class="card-text">{{ listCounter }}</label>
+                    <label class="card-text">{{ counters[listCounter].name }}</label>
                   </div>
                 </div>
               </div>
@@ -117,7 +121,7 @@
             <div class="row">
               <div
                 class="col-2"
-                v-for="(getItem, index) in listItem"
+                v-for="(getItem, index) in documents[name].items"
                 :key="index"
               >
                 <img
@@ -214,12 +218,12 @@
       </div>
     </div>
     <div>
-      {{ counters["Poppy"].image.full }}
     </div>
   </div>
 </template>
 
 <script>
+import { db } from "./../../data/db.js";
 export default {
   props: ["name"],
   data() {
@@ -232,13 +236,10 @@ export default {
         "https://ddragon.leagueoflegends.com/cdn/11.9.1/data/th_TH/item.json",
       apiCounters:
         "https://ddragon.leagueoflegends.com/cdn/11.9.1/data/th_TH/champion.json",
-      apiListItem: "http://localhost:3000/items",
-      apiListCounter: "http://localhost:3000/counter",
       champion: {},
       item: {},
-      listItem: {},
-      listCounters: {},
       counters: {},
+      documents: {},
       classlink: "nav-link",
       classActive: "active",
       classDetail: "class-detail",
@@ -250,6 +251,9 @@ export default {
       return this.$store.state.item[this.name];
     },
   },
+  firebase: {
+    documents: db.ref("data"),
+  },
   mounted() {
     fetch(this.api)
       .then((res) => res.json())
@@ -258,14 +262,6 @@ export default {
     fetch(this.apiItems)
       .then((res) => res.json())
       .then((data) => (this.item = data.data))
-      .catch((err) => console.log(err.message));
-    fetch(this.apiListItem)
-      .then((res) => res.json())
-      .then((data) => (this.listItem = data[this.name]))
-      .catch((err) => console.log(err.message));
-    fetch(this.apiListCounter)
-      .then((res) => res.json())
-      .then((data) => (this.listCounters = data[this.name]))
       .catch((err) => console.log(err.message));
     fetch(this.apiCounters)
       .then((res) => res.json())
@@ -316,9 +312,9 @@ export default {
 }
 
 .text-center-card.win {
-  color: #3CF894;
+  color: #3cf894;
 }
-.text-center-card.lose{
-  color: #FC393E;
+.text-center-card.lose {
+  color: #fc393e;
 }
 </style>
