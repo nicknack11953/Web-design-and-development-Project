@@ -64,7 +64,7 @@
           <div class="row">
             <div class="col-6">
               <h3 class="text-center-card win">
-                แชมป์เปียนที่ชนะทาง {{ name }}
+                แชมป์เปียนที่ชนะทาง {{ champion[name].name }}
               </h3>
               <div class="row winbox">
                 <div
@@ -72,34 +72,11 @@
                   v-for="(listCounter, index) in documents[name].Counter.win"
                   :key="index"
                 >
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      v-bind:src="
-                        'https://ddragon.leagueoflegends.com/cdn/11.9.1/img/champion/' +
-                        counters[listCounter].image.full
-                      "
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <label class="card-text">{{
-                      counters[listCounter].name
-                    }}</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="row">
-                <h3 class="text-center-card lose">
-                  แชมป์เปียนที่แพ้ทาง {{ name }}
-                </h3>
-                <div class="row winbox">
-                  <div
-                    class="col-4 card_box"
-                    v-for="(listCounter, index) in documents[name].Counter.lose"
-                    :key="index"
+                  <router-link
+                    :to="{
+                      name: 'Name',
+                      params: { name: counters[listCounter].name },
+                    }"
                   >
                     <div class="card">
                       <img
@@ -116,6 +93,43 @@
                         counters[listCounter].name
                       }}</label>
                     </div>
+                  </router-link>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="row">
+                <h3 class="text-center-card lose">
+                  แชมป์เปียนที่แพ้ทาง {{ champion[name].name }}
+                </h3>
+                <div class="row winbox">
+                  <div
+                    class="col-4 card_box"
+                    v-for="(listCounter, index) in documents[name].Counter.lose"
+                    :key="index"
+                  >
+                    <router-link
+                      :to="{
+                        name: 'Name',
+                        params: { name: counters[listCounter].name },
+                      }"
+                    >
+                      <div class="card">
+                        <img
+                          class="card-img-top"
+                          v-bind:src="
+                            'https://ddragon.leagueoflegends.com/cdn/11.9.1/img/champion/' +
+                            counters[listCounter].image.full
+                          "
+                          alt=""
+                        />
+                      </div>
+                      <div class="card-body">
+                        <label class="card-text">{{
+                          counters[listCounter].name
+                        }}</label>
+                      </div>
+                    </router-link>
                   </div>
                 </div>
               </div>
@@ -355,5 +369,9 @@ export default {
 
 .text-center-card.lose {
   color: #fc393e;
+}
+.winbox a {
+  color: #fff;
+  text-decoration: none;
 }
 </style>
