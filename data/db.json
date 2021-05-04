@@ -245,13 +245,13 @@
       "win": ["Warwick", "Nunu", "Olaf", "Taliyah", "RekSai"],
       "lose": ["Lillia", "Rammus", "Nidalee", "Hecarim", "Gwen"]
     },
-    "DrMundo": {
-      "win": ["Ivern", "Trundle", "Fiddlesticks", "Khazix", "RekSai"],
-      "lose": ["Amumu", "JarvanIV", "Mordekaiser", "Rengar", "Hecarim"]
-    },
     "Draven": {
       "win": ["Ashe", "Jinx", "Sivir", "MissFortune", "Kalista"],
       "lose": ["Xayah", "Lucian", "Caitlyn", "Ezreal", "Varus"]
+    },
+    "DrMundo": {
+      "win": ["Ivern", "Trundle", "Fiddlesticks", "Khazix", "RekSai"],
+      "lose": ["Amumu", "JarvanIV", "Mordekaiser", "Rengar", "Hecarim"]
     },
     "Ekko": {
       "win": ["Poppy", "Nunu", "Zac", "Skarner", "Shaco"],
