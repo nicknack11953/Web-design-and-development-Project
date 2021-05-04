@@ -5,7 +5,7 @@
       style="background-color: #030608"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">HH.GG</a>
+        <router-link :to="'/'" class="navbar-brand">HH.GG</router-link>
         <button
           class="navbar-toggler"
           data-bs-toggle="collapse"
