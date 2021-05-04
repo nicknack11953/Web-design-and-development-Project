@@ -237,7 +237,7 @@ export default {
 
     var filtered = Object.filter(
       this.documents,
-      (document) => document.Position == "sup"
+      (document) => document.Tier == "C"
     );
     console.log(filtered);
   },

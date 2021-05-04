@@ -49,6 +49,9 @@
                 >{{ navlist.title }}</router-link
               >
             </li>
+            <li class="navbar-item posit">
+              <router-link :to="'/list'" class="nav-link">ตารางระดับ</router-link>
+            </li>
           </ul>
         </div>
       </div>
@@ -72,7 +75,6 @@ export default {
         { title: "กลาง", link: "mid" },
         { title: "ล่าง", link: "bot" },
         { title: "ซัพพอร์ต", link: "sup" },
-        { title: "รายการระดับ", link: "list" },
       ],
       class: "navbar-item posit",
     };
