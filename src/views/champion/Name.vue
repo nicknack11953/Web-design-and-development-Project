@@ -213,24 +213,258 @@
                 </span>
               </div>
               <div class="col-9 head-box">
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  1
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  2
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  3
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  4
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  5
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  6
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  7
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  8
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  9
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  10
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  11
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  12
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  13
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  14
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  15
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  16
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  17
+                </div>
+                <div
+                  class="box"
+                  style="
+                    background-color: #d0a85c;
+                    text-align: center;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                  "
+                >
+                  18
+                </div>
               </div>
             </div>
           </div>
@@ -337,7 +571,7 @@ export default {
 .box {
   width: 48px;
   height: 48px;
-  background: #d0e1f9;
+  background: #030608;
   border: 1px solid white;
 }
 
