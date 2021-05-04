@@ -3,7 +3,9 @@
     <h1 style="color: #d0a85c">ตารางระดับ</h1>
     <div class="row detail-header" v-for="(tier, index) in tiers" :key="index">
       <div class="col-1" style="background-color: #d0a85c">
-        <h1>{{ tier }}</h1>
+        <h1 style="text-align: center; font-weight: bold">
+          {{ tier }}
+        </h1>
       </div>
       <div class="col-11">
         <div class="row" style="background-color: #323440">
@@ -35,7 +37,9 @@
                   alt=""
                 />
                 <div class="card-body" style="text-align: center">
-                  <span class="card-text">{{ details.data[name].name }}</span>
+                  <span class="card-text" style="color: #1e1f26">{{
+                    details.data[name].name
+                  }}</span>
                 </div>
               </div>
             </router-link>
