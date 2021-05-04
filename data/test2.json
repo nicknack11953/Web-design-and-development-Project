@@ -1,0 +1,84 @@
+{
+  "data": {
+    "Aatrox": {
+      "items": [3047, 6630, 3053, 6333, 3065, 3026],
+      "Counter": {
+        "win": ["Poppy", "Darius", "Maokai", "Kennen", "Illaoi"],
+        "lose": ["Gragas", "Gangplank", "Sylas", "Yone", "DrMundo"]
+      },
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
+    },
+    "Ahri": {
+      "items": [6655, 3020, 4628, 3157, 3041, 3089],
+      "Counter": {
+        "win": ["Velkoz", "Rumble", "Annie", "Corki", "Talon"],
+        "lose": ["Gwen", "Neeko", "LeeSin", "Irelia", "Tristana"]
+      },
+      "Spell": ["SummonerFlash", "SummonerDot"]
+    },
+    "Akali": {
+      "items": [4636, 3020, 3100, 3157, 3135, 3089],
+      "Counter": {
+        "win": ["Pantheon", "Galio", "Rumble", "Talon", "Neeko"],
+        "lose": ["Gwen", "Syndra", "Ekko", "Irelia", "Yone"]
+      },
+      "Spell": ["SummonerFlash", "SummonerDot"]
+    },
+    "Alistar": {
+      "items": [3117, 3190, 3050, 3075, 4641, 3109],
+      "Counter": {
+        "win": ["Bard", "Lulu", "Taric", "Senna", "Sona"],
+        "lose": ["Sett", "Yuumi", "Pantheon", "Nautilus", "Rell"]
+      },
+      "Spell": ["SummonerFlash", "SummonerDot"]
+    },
+    "Amumu": {
+      "items": [3068, 3047, 3075, 3001, 3193, 3110],
+      "Counter": {
+        "win": ["Trundle", "Fiddlesticks", "Vi", "RekSai", "Nunu"],
+        "lose": ["Shyvana", "Nidalee", "Gwen", "Hecarim", "Gragas"]
+      },
+      "Spell": ["SummonerFlash", "SummonerSmite"]
+    },
+    "Anivia": {
+      "items": [6653, 3020, 3003, 3157, 3041, 3102],
+      "Counter": {
+        "win": ["Corki", "Zoe", "Ziggs", "Malzahar", "Lux"],
+        "lose": ["Irelia", "Ryze", "Lucian", "Syndra", "Gwen"]
+      },
+      "Spell": ["SummonerFlash", "SummonerDot"]
+    },
+    "Annie": {
+      "items": [3020, 6655, 3157, 3041, 3135, 3089],
+      "Counter": {
+        "win": ["LeeSin", "Rumble", "Taric", "Velkoz", "Xerath"],
+        "lose": ["Irelia", "Zoe", "Viego", "Pantheon", "Ryze"]
+      },
+      "Spell": ["SummonerFlash", "SummonerDot"]
+    },
+    "Aphelios": {
+      "items": [3006, 6672, 3085, 3031, 3026, 3072],
+      "Counter": {
+        "win": ["KogMaw", "Ashe", "Lucian", "Jhin", "MissFortune"],
+        "lose": ["Kalista", "Twitch", "Draven", "Senna", "Ezreal"]
+      },
+      "Spell": ["SummonerFlash", "SummonerHeal"]
+    },
+    "Ashe": {
+      "items": [3006, 6672, 3046, 3031, 3026, 3033],
+      "Counter": {
+        "win": ["Varus", "Tristana", "KogMaw", "Jinx", "Vayne"],
+        "lose": ["Aphelios", "Xayah", "Lucian", "Draven", "Ezreal"]
+      },
+      "Spell": ["SummonerFlash", "SummonerHeal"]
+    },
+    "AurelionSol": {
+      "items": [3020, 3116, 3041, 3157, 4629, 3135],
+      "Counter": {
+        "win": ["Diana", "Azir", "Kassadin", "Katarina", "Neeko"],
+        "lose": ["Lucian", "Irelia", "Syndra", "Corki", "Viego"]
+      },
+      "Spell": ["SummonerFlash", "SummonerDot"]
+    }
+  }
+}

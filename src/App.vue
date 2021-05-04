@@ -2,15 +2,18 @@
   <div id="app">
     <Navbar />
     <router-view />
+    <Test />
   </div>
 </template>
 <script>
 import Navbar from "@/components/Navbar.vue";
+import Test from "./views/champion/Test";
 
 export default {
   name: "app",
   components: {
     Navbar,
+    Test
   },
   // data() {
   //   return {
