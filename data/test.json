@@ -6,7 +6,8 @@
         "win": ["Poppy", "Darius", "Maokai", "Kennen", "Illaoi"],
         "lose": ["Gragas", "Gangplank", "Sylas", "Yone", "DrMundo"]
       },
-      "Spell": ["SummonerFlash", "SummonerTeleport"]
+      "Spell": ["SummonerFlash", "SummonerTeleport"],
+      "Position": ""
     },
     "Ahri": {
       "items": [6655, 3020, 4628, 3157, 3041, 3089],
