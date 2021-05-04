@@ -180,8 +180,9 @@
                     item[getItem].image.full
                   "
                   alt=""
-                  style="width: 6rem"
+                  style="width: 6rem;display: block;margin-left: auto;margin-right: auto;"
                 />
+                <span style="display: block; text-align: center">{{ item[getItem].name }}</span>
               </div>
             </div>
           </div>
@@ -605,8 +606,8 @@ export default {
 
 .item {
   margin: 1% 0% 1% 0%;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 .box {
