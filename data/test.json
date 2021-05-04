@@ -182,7 +182,7 @@
         "win": ["Ivern", "Trundle", "Fiddlesticks", "Khazix", "RekSai"],
         "lose": ["Amumu", "JarvanIV", "Mordekaiser", "Rengar", "Hecarim"]
       },
-      "Spell": ["SummonerFlash", "SummonerFlash"]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Draven": {
       "items": [6673, 3006, 6676, 3031, 3036, 3094],
@@ -190,7 +190,7 @@
         "win": ["Ashe", "Jinx", "Sivir", "MissFortune", "Kalista"],
         "lose": ["Xayah", "Lucian", "Caitlyn", "Ezreal", "Varus"]
       },
-      "Spell": ["SummonerExhaust","SummonerFlash"]
+      "Spell": ["SummonerExhaust", "SummonerFlash"]
     },
     "Ekko": {
       "items": [3152, 3020, 3100, 3041, 3157, 3089],
@@ -238,7 +238,7 @@
         "win": ["Urgot", "Malphite", "Singed", "Shen", "Darius"],
         "lose": ["Yasuo", "Yone", "Gwen", "Irelia", "Viego"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Fizz": {
       "items": [3158, 3157, 3041, 3100, 3089, 3135],
@@ -246,7 +246,7 @@
         "win": ["LeeSin", "Anivia", "Renekton", "Pantheon", "Zed"],
         "lose": ["Irelia", "Leblanc", "Syndra", "Lux", "Xerath"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Galio": {
       "items": [3111, 3152, 3157, 3165, 3041, 4637],
@@ -254,7 +254,7 @@
         "win": ["Velkoz", "Aatrox", "Cassiopeia", "Sett", "Neeko"],
         "lose": ["Ryze", "Syndra", "Irelia", "Akali", "Orianna"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Gangplank": {
       "items": [3078, 3158, 3053, 6676, 3031, 3036],
@@ -262,7 +262,7 @@
         "win": ["Rengar", "Kled", "Quinn", "Urgot", "Aatrox"],
         "lose": ["Viego", "Renekton", "Jayce", "Kennen", "Akali"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Garen": {
       "items": [3006, 6631, 3742, 3053, 3075, 3071],
@@ -270,7 +270,7 @@
         "win": ["Darius", "Camille", "Kayle", "Vayne", "Sett"],
         "lose": ["Rengar", "Irelia", "Viego", "Volibear", "Jayce"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Gnar": {
       "items": [3047, 6631, 3053, 3075, 3143, 3193],
@@ -278,7 +278,7 @@
         "win": ["Darius", "Urgot", "Kled", "Maokai", "Malphite"],
         "lose": ["Volibear", "Gwen", "Yone", "Singed", "Viego"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Gragas": {
       "items": [3020, 4636, 3157, 3165, 3135, 3089],
@@ -286,7 +286,7 @@
         "win": ["Shaco", "Volibear", "Amumu", "Fiddlesticks", "Rengar"],
         "lose": ["Rumble", "Karthus", "Gwen", "Trundle", "Kindred"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Graves": {
       "items": [6671, 3047, 6676, 3031, 3072, 3026],
@@ -294,7 +294,7 @@
         "win": ["Taliyah", "Warwick", "Evelynn", "Khazix", "Trundle"],
         "lose": ["Amumu", "Shyvana", "Sejuani", "Lillia", "Rammus"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Gwen": {
       "items": [4633, 3047, 3115, 3157, 3089, 4629],
@@ -302,7 +302,7 @@
         "win": ["Singed", "Warwick", "Yasuo", "Pantheon", "Fiora"],
         "lose": ["Yorick", "Sion", "Kled", "Aatrox", "Illaoi"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Hecarim": {
       "items": [3158, 6664, 3742, 4401, 3075, 3143],
@@ -310,7 +310,7 @@
         "win": ["Ivern", "Nunu", "Evelynn", "Amumu", "Morgana"],
         "lose": ["Lillia", "Gragas", "Graves", "Sejuani", "MasterYi"]
       },
-      "Spell": ["SummonerHaste", ""]
+      "Spell": ["SummonerHaste", "SummonerSmite"]
     },
     "Heimerdinger": {
       "items": [6653, 3020, 3157, 3135, 3165, 3116],
@@ -318,7 +318,7 @@
         "win": ["Nasus", "Garen", "Gnar", "Lucian", "Yone"],
         "lose": ["DrMundo", "Teemo", "Gangplank", "LeeSin", "Malphite"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Illaoi": {
       "items": [6632, 3111, 3053, 6333, 3065, 3026],
@@ -326,7 +326,7 @@
         "win": ["Vladimir", "DrMundo", "Kennen", "Nasus", "Ryze"],
         "lose": ["Akali", "Yone", "Gangplank", "Renekton", "Warwick"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Irelia": {
       "items": [3153, 3047, 6673, 3053, 3026, 6609],
@@ -334,7 +334,7 @@
         "win": ["Nocturne", "Volibear", "Shen", "Kled", "Singed"],
         "lose": ["Yone", "Yorick", "Vayne", "Illaoi", "Rumble"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Ivern": {
       "items": [3158, 6617, 6616, 3041, 3107, 3504],
@@ -342,7 +342,7 @@
         "win": ["Fiddlesticks", "Nocturne", "Morgana", "Taliyah", "MasterYi"],
         "lose": ["Hecarim", "Gwen", "Olaf", "DrMundo", "Kindred"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Janna": {
       "items": [3158, 2065, 6616, 3011, 4641, 3504],
@@ -350,7 +350,7 @@
         "win": ["Shaco", "Sona", "Zyra", "Pantheon", "Nami"],
         "lose": ["Sett", "Taric", "Rell", "Swain", "Brand"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "JarvanIV": {
       "items": [6630, 3047, 3053, 3026, 3075, 3193],
@@ -358,7 +358,7 @@
         "win": ["Karthus", "XinZhao", "Fiddlesticks", "Ekko", "Poppy"],
         "lose": ["Shyvana", "Lillia", "Sejuani", "Rammus", "Nidalee"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Jax": {
       "items": [3153, 3047, 3078, 3053, 6333, 3026],
@@ -366,7 +366,7 @@
         "win": ["Malphite", "Kled", "Shen", "Kennen", "Singed"],
         "lose": ["Yasuo", "Irelia", "Gwen", "Volibear", "Akali"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Jayce": {
       "items": [6692, 3158, 3004, 3814, 6694, 3026],
@@ -374,7 +374,7 @@
         "win": ["Nasus", "Maokai", "Ornn", "Malphite", "Tryndamere"],
         "lose": ["Kayle", "Mordekaiser", "Fiora", "Gwen", "Rumble"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Jhin": {
       "items": [6671, 3009, 6676, 3094, 3031, 3026],
@@ -382,7 +382,7 @@
         "win": ["Swain", "Jinx", "Tristana", "Ashe", "Draven"],
         "lose": ["Aphelios", "Ezreal", "Lucian", "Xayah", "Varus"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Jinx": {
       "items": [6672, 3006, 3085, 3031, 3026, 3072],
@@ -390,7 +390,7 @@
         "win": ["Swain", "Ashe", "Jhn", "Varus", "Sivir"],
         "lose": ["Lucian", "Xayah", "Kalista", "Aphelios", "Samira"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Kaisa": {
       "items": [6672, 3006, 6676, 3046, 3031, 3026],
@@ -398,7 +398,7 @@
         "win": ["Swain", "Jinx", "KogMaw", "Ashe", "Jhin"],
         "lose": ["Ezreal", "Lucian", "Aphelios", "Yasuo", "Senna"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Kalista": {
       "items": [3006, 6673, 3085, 3072, 3026, 7018],
@@ -406,7 +406,7 @@
         "win": ["KogMaw", "Senna", "Vayne", "Jinx", "Xayah"],
         "lose": ["Varus", "Lucian", "Draven", "Swain", "Ezreal"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Karma": {
       "items": [3158, 2065, 3011, 6616, 4641, 4643],
@@ -414,7 +414,7 @@
         "win": ["Maokai", "Blitzcrank", "Nautilus", "Yuumi", "Thresh"],
         "lose": ["Swain", "Pantheon", "Sett", "Lux", "Rell"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Karthus": {
       "items": [3020, 6653, 3041, 3157, 3135, 3089],
@@ -422,7 +422,7 @@
         "win": ["Skarner", "Evelynn", "Gragas", "Taliyah", "Volibear"],
         "lose": ["JarvanIV", "Lillia", "Amumu", "Sejuani", "Poppy"]
       },
-      "Spell": ["SummonerExhaust", ""]
+      "Spell": ["SummonerExhaust", "SummonerSmite"]
     },
     "Kassadin": {
       "items": [6656, 3020, 3041, 3157, 3089, 3135],
@@ -430,7 +430,7 @@
         "win": ["LeeSin", "Ahri", "Tristana", "Malzahar", "Zed"],
         "lose": ["Irelia", "Orianna", "Akali", "Katarina", "Zoe"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Katarina": {
       "items": [3020, 3152, 3115, 3157, 3041, 3089],
@@ -438,7 +438,7 @@
         "win": ["Kassadin", "Vladimir", "Jayce", "Zed", "Galio"],
         "lose": ["Syndra", "Orianna", "Ryze", "Irelia", "Gwen"]
       },
-      "Spell": ["SummonerTeleport", ""]
+      "Spell": ["SummonerTeleport", "SummonerDot"]
     },
     "Kayle": {
       "items": [3006, 3115, 4633, 3089, 3157, 3026],
@@ -446,7 +446,7 @@
         "win": ["Rengar", "Tryndamere", "Jayce", "Teemo", "Kled"],
         "lose": ["Kennen", "Warwick", "Rumble", "Volibear", "Gwen"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Kayn": {
       "items": [6630, 3047, 3071, 3053, 3814, 3026],
@@ -454,7 +454,7 @@
         "win": ["Poppy", "Warwick", "Nocturne", "Morgana", "Elise"],
         "lose": ["Lillia", "Hecarim", "Olaf", "JarvanIV", "DrMundo"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Kennen": {
       "items": [3152, 3020, 3157, 3165, 3135, 3089],
@@ -462,7 +462,7 @@
         "win": ["Kayle", "Rengar", "Poppy", "Urgot", "Teemo"],
         "lose": ["Singed", "Yone", "Illaoi", "Volibear", "Akali"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Khazix": {
       "items": [6691, 3158, 3814, 6694, 3026, 6609],
@@ -470,7 +470,7 @@
         "win": ["Zac", "Shaco", "Skarner", "Nocturne", "Sejuani"],
         "lose": ["Graves", "Gwen", "DrMundo", "Lillia", "Rumble"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Kindred": {
       "items": [6672, 3006, 6676, 3031, 3026, 3072],
@@ -478,7 +478,7 @@
         "win": ["Ivern", "Shaco", "Taliyah", "Fiddlesticks", "Elise"],
         "lose": ["Lillia", "Trundle", "Shyvana", "Hecarim", "Rengar"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Kled": {
       "items": [3047, 3068, 3748, 3053, 3193, 6333],
@@ -486,7 +486,7 @@
         "win": ["Poppy", "Singed", "Shen", "Garen", "Gwen"],
         "lose": ["Sylas", "Tryndamere", "Renekton", "Gangplank", "Irelia"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "KogMaw": {
       "items": [3006, 6672, 3124, 3085, 3026, 3072],
@@ -494,7 +494,7 @@
         "win": ["Senna", "Jinx", "Jhin", "Varus", "MissFortune"],
         "lose": ["Kalista", "Aphelios", "Xayah", "Ezreal", "Samira"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Leblanc": {
       "items": [3020, 6655, 3041, 3157, 3089, 3135],
@@ -502,7 +502,7 @@
         "win": ["", "", "", "", ""],
         "lose": ["", "", "", "", ""]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "LeeSin": {
       "items": [6692, 3158, 3814, 3053, 3026, 6333],
@@ -510,7 +510,7 @@
         "win": ["Skarner", "Fiddlesticks", "Nocturne", "Elise", "Udyr"],
         "lose": ["Hecarim", "Nidalee", "DrMundo", "Lillia", "Rengar"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Leona": {
       "items": [3117, 3190, 3050, 3109, 4641, 4643],
@@ -518,7 +518,7 @@
         "win": ["Bard", "Shaco", "Morgana", "Galio", "Zilean"],
         "lose": ["Pantheon", "Yuumi", "Gragas", "Sett", "Nautilus"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Lillia": {
       "items": [3158, 6653, 3157, 4637, 3165, 3102],
@@ -526,7 +526,7 @@
         "win": ["Morgana", "Fiddlesticks", "Karthus", "Nunu", "JarvanIV"],
         "lose": ["Trundle", "Gwen", "Olaf", "Rammus", "Skarner"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Lissandra": {
       "items": [6656, 3020, 3157, 3089, 3135, 3102],
@@ -534,7 +534,7 @@
         "win": ["Rumble", "Qiyana", "Galio", "Zoe", "Lux"],
         "lose": ["Ryze", "Veigar", "Irelia", "Lucian", "Akali"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Lucian": {
       "items": [6672, 3006, 3508, 3031, 3026, 3072],
@@ -542,7 +542,7 @@
         "win": ["Jinx", "Ashe", "Draven", "Varus", "Senna"],
         "lose": ["Aphelios", "Xayah", "Ezreal", "Samira", "Tristana"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Lulu": {
       "items": [6617, 3158, 3504, 6616, 4641, 4643],
@@ -550,7 +550,7 @@
         "win": ["Maokai", "Sona", "Bard", "Blitzcrank", "Soraka"],
         "lose": ["Pantheon", "Sett", "Rell", "Swain", "Shaco"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Lux": {
       "items": [3020, 6655, 3157, 4628, 3089, 4643],
@@ -558,7 +558,7 @@
         "win": ["Shaco", "Zilean", "Maokai", "Braum", "Bard"],
         "lose": ["Sona", "Sett", "Seraphine", "Galio", "Rakan"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Malphite": {
       "items": [3047, 3068, 3075, 3110, 3143, 3193],
@@ -566,7 +566,7 @@
         "win": ["Sion", "Sylas", "Chogath", "Rumble", "Ornn"],
         "lose": ["Vayne", "Irelia", "Renekton", "Fiora", "Jax"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Malzahar": {
       "items": [6653, 3020, 3116, 3157, 3135, 3089],
@@ -574,7 +574,7 @@
         "win": ["Ziggs", "Diana", "Talon", "Tristana", "Viktor"],
         "lose": ["Lucian", "Ryze", "Syndra", "Leblanc", "Orianna"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Maokai": {
       "items": [4005, 3020, 4637, 3165, 4641, 4643],
@@ -582,7 +582,7 @@
         "win": ["Taric", "Shaco", "Swain", "Zyra", "Alistar"],
         "lose": ["Sett", "Pyke", "Karma", "Seraphine", "Sona"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "MasterYi": {
       "items": [6691, 3006, 6676, 3508, 3031, 3026],
@@ -590,7 +590,7 @@
         "win": ["Jax", "Udyr", "Sejuani", "Elise", "Shaco"],
         "lose": ["Lillia", "Gwen", "Kindred", "Rumble", "Shyvana"]
       },
-      "Spell": ["SummonerSmite", ""]
+      "Spell": ["SummonerSmite", "SummonerDot"]
     },
     "MissFortune": {
       "items": [6672, 3006, 3072, 3031, 3036, 3026],
@@ -598,7 +598,7 @@
         "win": ["Jhin", "Sivir", "Jinx", "Tristana", "Ashe"],
         "lose": ["Aphelios", "Swain", "Lucian", "Xayah", "Ezreal"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Mordekaiser": {
       "items": [4633, 3047, 4637, 3157, 3075, 3065],
@@ -606,7 +606,7 @@
         "win": ["Quinn", "Rengar", "Singed", "Jax", "Jayce"],
         "lose": ["Illaoi", "DrMundo", "Irelia", "Renekton", "Volibear"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Morgana": {
       "items": [4005, 3020, 3157, 3165, 4641, 4643],
@@ -614,7 +614,7 @@
         "win": ["Xerath", "Maokai", "Senna", "Sona", "Zilean"],
         "lose": ["Sett", "Leona", "Zyra", "Swain", "Velkoz"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Nami": {
       "items": [4005, 3158, 3504, 6616, 4641, 4643],
@@ -622,7 +622,7 @@
         "win": ["Maokai", "Zyra", "Xerath", "Thresh", "Braum"],
         "lose": ["Sett", "Seraphine", "Velkoz", "Swain", "Janna"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Nasus": {
       "items": [3158, 6632, 3110, 3065, 3075, 3193],
@@ -630,7 +630,7 @@
         "win": ["Rengar", "Sylas", "Ornn", "Shen", "Camille"],
         "lose": ["Gragas", "Jayce", "Illaoi", "Yone", "Vayne"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHaste"]
     },
     "Nautilus": {
       "items": [3117, 3190, 3050, 3109, 4641, 4643],
@@ -638,7 +638,7 @@
         "win": ["Bard", "Velkoz", "Leona", "Zilean", "Sona"],
         "lose": ["Yuumi", "Karma", "Sett", "Pantheon", "Lux"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Neeko": {
       "items": [3020, 3152, 3157, 3165, 3135, 3089],
@@ -646,7 +646,7 @@
         "win": ["Velkoz", "Rumble", "Corki", "Tristana", "Ahri"],
         "lose": ["LeeSin", "Syndra", "Gwen", "Irelia", "Ryze"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerFlash"]
     },
     "Nidalee": {
       "items": [3158, 4636, 3041, 3157, 3135, 3089],
@@ -654,7 +654,7 @@
         "win": ["RekSai", "Elise", "Jarvan", "Evelynn", "Zac"],
         "lose": ["Lillia", "Graves", "Viego", "Hecarim", "Rumble"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Nocturne": {
       "items": [3158, 6631, 3053, 3026, 6609, 3814],
@@ -662,7 +662,7 @@
         "win": ["Shyvana", "Gragas", "Zac", "Fiddlesticks", "XinZhao"],
         "lose": ["Gwen", "RekSai", "Ivern", "Graves", "Hecarim"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Nunu": {
       "items": [3068, 3047, 3742, 3075, 3065, 3041],
@@ -670,7 +670,7 @@
         "win": ["Taliyah", "Gwen", "Morgana", "JarvanIV", "Ivern"],
         "lose": ["Lillia", "Hecarim", "Skarner", "Amumu", "Sejuani"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Olaf": {
       "items": [6631, 3047, 3053, 6333, 3075, 3026],
@@ -678,7 +678,7 @@
         "win": ["Ivern", "Trundle", "Nunu", "Kayn", "Khazix"],
         "lose": ["Taliyah", "MasterYi", "Hecarim", "DrMundo", "Rammus"]
       },
-      "Spell": ["SummonerHaste", ""]
+      "Spell": ["SummonerHaste", "SummonerSmite"]
     },
     "Orianna": {
       "items": [3020, 6655, 3003, 3157, 3089, 3135],
@@ -686,7 +686,7 @@
         "win": ["Ziggs", "Katarina", "Tristana", "Xerath", "Talon"],
         "lose": ["Gwen", "Ryze", "TwistedFate", "Azir", "Fizz"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Ornn": {
       "items": [3047, 3068, 3075, 3001, 3193, 3143],
@@ -694,7 +694,7 @@
         "win": ["Rengar", "Poppy", "Shen", "Singed", "Wukong"],
         "lose": ["Renekton", "Viego", "Irelia", "Jayce", "DrMundo"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Pantheon": {
       "items": [6692, 3047, 3071, 3053, 3026, 6609],
@@ -702,7 +702,7 @@
         "win": ["Annie", "Malzahar", "Lux", "Diana", "Corki"],
         "lose": ["Gwen", "Akali", "LeeSin", "Cassiopeia", "Lucian"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Poppy": {
       "items": [6632, 3047, 3742, 3075, 3053, 3001],
@@ -710,7 +710,7 @@
         "win": ["Morgana", "Elise", "Karthus", "Rammus", "Khazix"],
         "lose": ["Ekko", "Rengar", "Graves", "JarvanIV", "Lillia"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Pyke": {
       "items": [3117, 6693, 3179, 3814, 3026, 3142],
@@ -718,7 +718,7 @@
         "win": ["Maokai", "Shaco", "Sona", "Bard", "Braum"],
         "lose": ["Sett", "Velkoz", "Taric", "Lux", "Xerath"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Qiyana": {
       "items": [6693, 3158, 6695, 3004, 6694, 3026],
@@ -726,7 +726,7 @@
         "win": ["Malphite", "Garen", "Annie", "Rumble", "Malzahar"],
         "lose": ["Lucian", "Ryze", "Orianna", "Lissandra", "Irelia"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Quinn": {
       "items": [6671, 3006, 3095, 3031, 3026, 3036],
@@ -734,7 +734,7 @@
         "win": ["Gragas", "Ornn", "Poppy", "Chogath", "Shen"],
         "lose": ["Volibear", "Mordekaiser", "Rengar", "Akali", "Gangplank"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Rakan": {
       "items": [3158, 2065, 3050, 3107, 4641, 3504],
@@ -742,7 +742,7 @@
         "win": ["Zilean", "Sona", "Bard", "Taric", "Senna"],
         "lose": ["Pantheon", "Sett", "Yuumi", "Karma", "Gragas"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Rammus": {
       "items": [3047, 6664, 3075, 3742, 3143, 3193],
@@ -750,7 +750,7 @@
         "win": ["Skarner", "Trundle", "Vi", "Morgana", "RekSai"],
         "lose": ["Sejuani", "Gragas", "Poppy", "Rengar", "DrMundo"]
       },
-      "Spell": ["SummonerHaste", ""]
+      "Spell": ["SummonerHaste", "SummonerSmite"]
     },
     "RekSai": {
       "items": [6693, 3111, 3814, 3026, 3053, 6333],
@@ -758,7 +758,7 @@
         "win": ["Nocturne", "XinZhao", "Taliyah", "Skarner", "Karthus"],
         "lose": ["Gwen", "Lillia", "Amumu", "Rammus", "Nidalee"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Rell": {
       "items": [3047, 3190, 3050, 3109, 4641, 4643],
@@ -766,7 +766,7 @@
         "win": ["Swain", "Shaco", "Gragas", "Velkoz", "Lulu"],
         "lose": ["Sett", "Braum", "Pantheon", "Brand", "Nautilus"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Renekton": {
       "items": [6631, 3047, 3053, 3026, 3065, 6333],
@@ -774,7 +774,7 @@
         "win": ["Ornn", "Kled", "Singed", "Urgot", "Malphite"],
         "lose": ["Yasuo", "Yorick", "Gragas", "Yone", "Jayce"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Rengar": {
       "items": [6691, 3158, 3508, 3036, 3031, 3026],
@@ -782,7 +782,7 @@
         "win": ["Sejuani", "RekSai", "Poppy", "Elise", "Volibear"],
         "lose": ["Gragas", "Skarner", "Warwick", "Hecarim", "JarvanIV"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Riven": {
       "items": [6630, 3158, 3071, 6333, 3026, 3053],
@@ -790,7 +790,7 @@
         "win": ["Warwick", "Urgot", "Volibear", "Rengar", "Yorick"],
         "lose": ["Yone", "Akali", "Rumble", "Yasuo", "Irelia"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Rumble": {
       "items": [3020, 4636, 3041, 3157, 3135, 3165],
@@ -798,7 +798,7 @@
         "win": ["Sejuani", "XinZhao", "Gragas", "Evelynn", "Khazix"],
         "lose": ["Hecarim", "Rammus", "Gwen", "Lillia", "Poppy"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Ryze": {
       "items": [3158, 6656, 3003, 3157, 3089, 3135],
@@ -806,7 +806,7 @@
         "win": ["Viego", "Galio", "Velkoz", "Cassiopeia", "Anivia"],
         "lose": ["Gwen", "Azir", "Zoe", "Viktor", "Pantheon"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Samira": {
       "items": [6673, 3047, 6676, 3031, 3026, 3072],
@@ -814,7 +814,7 @@
         "win": ["Swain", "Jinx", "Senna", "MissFortune", "KogMaw"],
         "lose": ["Aphelios", "Yasuo", "Ezreal", "Kalista", "KaiSa"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Sejuani": {
       "items": [3068, 3047, 3075, 3083, 3193, 3742],
@@ -822,7 +822,7 @@
         "win": ["Rammus", "Morgana", "Nunu", "JarvanIV", "Karthus"],
         "lose": ["Rumble", "Rengar", "MasterYi", "Skarner", "Vi"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Senna": {
       "items": [3009, 3851, 3071, 3094, 3033, 3026],
@@ -830,7 +830,7 @@
         "win": ["Xerath", "Nami", "Bard", "Soraka", "Maokai"],
         "lose": ["Sett", "Shaco", "Braum", "Galio", "Rakan"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Seraphine": {
       "items": [3158, 6617, 6616, 3011, 4641, 4643],
@@ -838,7 +838,7 @@
         "win": ["Taric", "Maokai", "Zyra", "Xerath", "Nami"],
         "lose": ["Sett", "Shaco", "Pantheon", "Velkoz", "Rell"]
       },
-      "Spell": ["SummonerExhaust", ""]
+      "Spell": ["SummonerExhaust", "SummonerFlash"]
     },
     "Sett": {
       "items": [3153, 3047, 6631, 3053, 3075, 3065],
@@ -846,7 +846,7 @@
         "win": ["Volibear", "Wukong", "Warwick", "Malphite", "Ornn"],
         "lose": ["Rumble", "Sylas", "Irelia", "Yasuo", "Viego"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Shaco": {
       "items": [3006, 6691, 3508, 6676, 3031, 3026],
@@ -854,7 +854,7 @@
         "win": ["Nunu", "Skarner", "Fiddlesticks", "Karthus", "Morgana"],
         "lose": ["Gragas", "Gwen", "Kindred", "Lillia", "Amumu"]
       },
-      "Spell": ["SummonerSmite", ""]
+      "Spell": ["SummonerSmite", "SummonerDot"]
     },
     "Shen": {
       "items": [3047, 3068, 3748, 3075, 3143, 3065],
@@ -862,7 +862,7 @@
         "win": ["Urgot", "DrMundo", "Darius", "Maokai", "Sett"],
         "lose": ["Irelia", "Yorick", "Viego", "Gangplank", "Gragas"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Shyvana": {
       "items": [4636, 3020, 3115, 3089, 3157, 3165],
@@ -870,7 +870,7 @@
         "win": ["Amumu", "JarvanIV", "Gwen", "Skarner", "DrMundo"],
         "lose": ["Karthus", "Nidalee", "Nocturne", "Rammus", "Olaf"]
       },
-      "Spell": ["SummonerSmite", ""]
+      "Spell": ["SummonerSmite", "SummonerDot"]
     },
     "Singed": {
       "items": [3047, 3116, 4633, 3041, 3165, 3157],
@@ -878,7 +878,7 @@
         "win": ["Kennen", "Nocturne", "Viego", "Riven", "LeeSin"],
         "lose": ["Gwen", "Irelia", "Rengar", "Akali", "Sylas"]
       },
-      "Spell": ["SummonerHaste", ""]
+      "Spell": ["SummonerHaste", "SummonerDot"]
     },
     "Sion": {
       "items": [3047, 3068, 3748, 3075, 3143, 3193],
@@ -886,7 +886,7 @@
         "win": ["Darius", "Maokai", "Nocturne", "Riven", "Gwen"],
         "lose": ["Gragas", "Malphite", "Vladimir", "Akali", "Teemo"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Sivir": {
       "items": [3004, 3158, 6691, 6694, 3814, 3026],
@@ -894,7 +894,7 @@
         "win": ["Swain", "Vayne", "Jinx", "Ashe", "Senna"],
         "lose": ["Xayah", "Ezreal", "Kalista", "Draven", "Aphelios"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Skarner": {
       "items": [6664, 3158, 3742, 4401, 3143, 3026],
@@ -902,7 +902,7 @@
         "win": ["Nunu", "Morgana", "Rengar", "Sejuani", "Elise"],
         "lose": ["Rammus", "Karthus", "Warwick", "Nidalee", "LeeSin"]
       },
-      "Spell": ["SummonerHaste", ""]
+      "Spell": ["SummonerHaste", "SummonerSmite"]
     },
     "Sona": {
       "items": [2065, 3158, 6616, 3504, 3011, 3089],
@@ -910,7 +910,7 @@
         "win": ["Maokai", "Zyra", "Sett", "Lux", "Pantheon"],
         "lose": ["Swain", "Shaco", "Pyke", "Karma", "Rakan"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Soraka": {
       "items": [6617, 3158, 6616, 3107, 4641, 3011],
@@ -918,7 +918,7 @@
         "win": ["Sona", "Maokai", "Zilean", "Blitzcrank", "Pantheon"],
         "lose": ["Taric", "Sett", "Brand", "Lux", "Rell"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerBarrier"]
     },
     "Swain": {
       "items": [6653, 3020, 3157, 3165, 4637, 3089],
@@ -926,7 +926,7 @@
         "win": ["Sona", "Zilean", "Karma", "Xerath", "Lulu"],
         "lose": ["Rell", "Maokai", "Shaco", "Sett", "Nautilus"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Sylas": {
       "items": [3158, 6656, 3041, 3157, 4629, 3089],
@@ -934,7 +934,7 @@
         "win": ["Malzahar", "Annie", "Galio", "Rumble", "Pantheon"],
         "lose": ["Irelia", "Neeko", "Lucian", "Jayce", "TwistedFate"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Syndra": {
       "items": [6655, 3020, 3003, 3157, 3135, 3089],
@@ -942,7 +942,7 @@
         "win": ["Galio", "Talon", "Neeko", "Katarina", "Rumble"],
         "lose": ["Gwen", "Ryze", "Lissandra", "Orianna", "Lucian"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "TahmKench": {
       "items": [3047, 3068, 3075, 3742, 3065, 4401],
@@ -950,7 +950,7 @@
         "win": ["Singed", "Kled", "Quinn", "Vladimir", "Shen"],
         "lose": ["Kennen", "Tryndamere", "Kayle", "Rengar", "Vayne"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Taliyah": {
       "items": [3020, 6655, 3041, 3157, 3135, 3102],
@@ -958,7 +958,7 @@
         "win": ["XinZhao", "Evelynn", "Gragas", "Rengar", "Olaf"],
         "lose": ["Graves", "Nunu", "Hecarim", "Udyr", "Kindred"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Talon": {
       "items": [3158, 6693, 6695, 3004, 3814, 3026],
@@ -966,7 +966,7 @@
         "win": ["Malphite", "Velkoz", "LeeSin", "Viego", "Katarina"],
         "lose": ["Syndra", "Garen", "Lucian", "Gwen", "Orianna"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Taric": {
       "items": [3047, 3190, 3050, 3109, 4641, 4641],
@@ -974,7 +974,7 @@
         "win": ["Braum", "Soraka", "Janna", "Pyke", "Zilean"],
         "lose": ["Pantheon", "Seraphine", "Zyra", "Maokai", "Sett"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Teemo": {
       "items": [3115, 3020, 6653, 4637, 3089, 3135],
@@ -982,7 +982,7 @@
         "win": ["Yone", "Kled", "Yasuo", "Volibear", "Sion"],
         "lose": ["Poppy", "Kayle", "Kennen", "Sylas", "Camille"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Thresh": {
       "items": [3117, 3190, 3050, 3109, 4641, 4643],
@@ -990,7 +990,7 @@
         "win": ["Sona", "Blitzcrank", "Bard", "Zilean", "Maokai"],
         "lose": ["Sett", "Yuumi", "Pantheon", "Karma", "Nami"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Tristana": {
       "items": [6672, 3006, 3046, 3031, 3026, 3072],
@@ -998,7 +998,7 @@
         "win": ["Jinx", "Sivir", "Draven", "Kaisa", "Caitlyn"],
         "lose": ["Senna", "Ezreal", "Aphelios", "Xayah", "Kalista"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Trundle": {
       "items": [3047, 6662, 3748, 3075, 3065, 3053],
@@ -1006,7 +1006,7 @@
         "win": ["Gragas", "Skarner", "Ivern", "Morgana", "Kindred"],
         "lose": ["Warwick", "Rammus", "Vi", "Amumu", "DrMundo"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Tryndamere": {
       "items": [3006, 6671, 6675, 3031, 6694, 3026],
@@ -1014,7 +1014,7 @@
         "win": ["Kled", "Poppy", "Wukong", "Warwick", "Darius"],
         "lose": ["Rumble", "Sylas", "Yone", "Kayle", "Jayce"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHaste"]
     },
     "TwistedFate": {
       "items": [3158, 6656, 3100, 3094, 3041, 3157],
@@ -1022,7 +1022,7 @@
         "win": ["Diana", "Yasuo", "Katarina", "Anivia", "Ekko"],
         "lose": ["Irelia", "Akali", "Zoe", "Lucian", "Lissandra"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Twitch": {
       "items": [3006, 6672, 3085, 3031, 3036, 3026],
@@ -1030,7 +1030,7 @@
         "win": ["Swain", "Jhin", "Tristana", "Draven", "Jinx"],
         "lose": ["Xayah", "Ezreal", "Varus", "Lucian", "Kalista"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Udyr": {
       "items": [3158, 6664, 3742, 4401, 3075, 3143],
@@ -1038,7 +1038,7 @@
         "win": ["Skarner", "RekSai", "Zac", "Morgana", "Nunu"],
         "lose": ["MasterYi", "Lillia", "Gwen", "Graves", "Viego"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Urgot": {
       "items": [3047, 3748, 6631, 3053, 3075, 3193],
@@ -1046,7 +1046,7 @@
         "win": ["Darius", "Sion", "Mordekaiser", "Illaoi", "Ornn"],
         "lose": ["Rengar", "Sylas", "Irelia", "Akali", "Viego"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Varus": {
       "items": [6691, 3158, 3004, 6694, 3814, 3026],
@@ -1054,7 +1054,7 @@
         "win": ["Jhin", "Twitch", "Kalista", "Draven", "Sivir"],
         "lose": ["Xayah", "Senna", "Aphelios", "Lucian", "Ezreal"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Vayne": {
       "items": [3006, 6672, 3046, 3031, 3026, 3072],
@@ -1062,7 +1062,7 @@
         "win": ["Swain", "Jinx", "MissFortune", "KogMaw", "Yasuo"],
         "lose": ["Kalista", "Xayah", "Ezreal", "Lucian", "Aphelios"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Veigar": {
       "items": [6656, 3020, 3157, 3089, 3135, 3102],
@@ -1070,7 +1070,7 @@
         "win": ["Rumble", "Velkoz", "Lissandra", "Malzahar", "Azir"],
         "lose": ["Ryze", "Gwen", "Viego", "Lucian", "Tristana"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerBarrier"]
     },
     "Velkoz": {
       "items": [3020, 6655, 3157, 3165, 4628, 4643],
@@ -1078,7 +1078,7 @@
         "win": ["Shaco", "Yuumi", "Xerath", "Pyke", "Maokai"],
         "lose": ["Sett", "Rell", "Lux", "Taric", "Nautilus"]
       },
-      "Spell": ["SummonerExhaust", ""]
+      "Spell": ["SummonerExhaust", "SummonerFlash"]
     },
     "Vi": {
       "items": [3078, 3047, 3053, 6333, 3026, 6609],
@@ -1086,7 +1086,7 @@
         "win": ["Trundle", "Ivern", "Udyr", "Karthus", "Sejuani"],
         "lose": ["Gwen", "Rammus", "Amumu", "Rumble", "Graves"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Viego": {
       "items": [6672, 3047, 3153, 3053, 3026, 6333],
@@ -1094,7 +1094,7 @@
         "win": ["Nunu", "Taliyah", "RekSai", "Evelynn", "Fiddlesticks"],
         "lose": ["Amumu", "Lillia", "Hecarim", "Rengar", "Vi"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Viktor": {
       "items": [6655, 3020, 3100, 3157, 3089, 3135],
@@ -1102,7 +1102,7 @@
         "win": ["Ekko", "Talon", "Velkoz", "Katarina", "Galio"],
         "lose": ["Azir", "Gwen", "Neeko", "Irelia", "Lucian"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Vladimir": {
       "items": [3152, 3020, 3041, 3089, 3157, 3135],
@@ -1110,7 +1110,7 @@
         "win": ["Malzahar", "Galio", "Ahri", "Xerath", "Anivia"],
         "lose": ["Gwen", "Irelia", "Lucian", "LeeSin", "Ryze"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Volibear": {
       "items": [3158, 6664, 3742, 3075, 3143, 3053],
@@ -1118,7 +1118,7 @@
         "win": ["Ivern", "Morgana", "Shyvana", "JarvanIV", "Nunu"],
         "lose": ["Lillia", "Gragas", "Rammus", "Rengar", "Gwen"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Warwick": {
       "items": [3047, 6632, 3748, 3075, 3053, 3026],
@@ -1126,7 +1126,7 @@
         "win": ["Trundle", "Skarner", "Ivern", "Zac", "Rengar"],
         "lose": ["Gwen", "Graves", "MasterYi", "DrMundo", "Amumu"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Wukong": {
       "items": [6632, 3047, 3071, 3053, 6609, 3026],
@@ -1134,7 +1134,7 @@
         "win": ["Singed", "Kled", "Warwick", "Rengar", "Shen"],
         "lose": ["Yone", "Irelia", "Yasuo", "Tryndamere", "Illaoi"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Xayah": {
       "items": [6671, 3006, 3508, 3031, 3036, 3026],
@@ -1142,7 +1142,7 @@
         "win": ["Swain", "Sivir", "Varus", "Draven", "Jinx"],
         "lose": ["Kalista", "Aphelios", "Samira", "Kaisa", "Lucian"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerHeal"]
     },
     "Xerath": {
       "items": [6655, 3020, 4628, 3041, 3135, 3089],
@@ -1150,7 +1150,7 @@
         "win": ["Bard", "Blitzcrank", "Leona", "Pyke", "Nautilus"],
         "lose": ["Sett", "Velkoz", "Pantheon", "Swain", "Seraphine"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerBarrier"]
     },
     "XinZhao": {
       "items": [6692, 3111, 3053, 3026, 6333, 3091],
@@ -1158,7 +1158,7 @@
         "win": ["Warwick", "Rammus", "Volibear", "Zac", "Fiddlesticks"],
         "lose": ["Rumble", "Taliyah", "Hecarim", "JarvanIV", "Gwen"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Yasuo": {
       "items": [3006, 6673, 3031, 3072, 3026, 6333],
@@ -1166,7 +1166,7 @@
         "win": ["Malphite", "Viego", "Sett", "Lissandra", "Rumble"],
         "lose": ["Gwen", "Ryze", "Irelia", "Lucian", "TwistedFate"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Yone": {
       "items": [3006, 6673, 3031, 3072, 3026, 6333],
@@ -1174,7 +1174,7 @@
         "win": ["LeeSin", "Pantheon", "Talon", "Tristana", "Annie"],
         "lose": ["Ryze", "Gwen", "Orianna", "Irelia", "Zoe"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Yorick": {
       "items": [6632, 3047, 3053, 3748, 3065, 3075],
@@ -1182,7 +1182,7 @@
         "win": ["Shen", "Yone", "Volibear", "Chogath", "Irelia"],
         "lose": ["Vladimir", "Kennen", "Teemo", "Rumble", "Poppy"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerTeleport"]
     },
     "Yuumi": {
       "items": [6617, 6616, 3504, 3041, 3222, 4641],
@@ -1190,7 +1190,7 @@
         "win": ["Nautilus", "Leona", "Thresh", "Pantheon", "Galio"],
         "lose": ["Velkoz", "Brand", "Karma", "Xerah", "Lux"]
       },
-      "Spell": ["SummonerHeal", ""]
+      "Spell": ["SummonerHeal", "SummonerDot"]
     },
     "Zac": {
       "items": [3068, 3047, 3075, 3065, 3083, 3041],
@@ -1198,7 +1198,7 @@
         "win": ["Nunu", "Morgana", "Gragas", "Taliyah", "Ivern"],
         "lose": ["Lillia", "Gwen", "Sejuani", "Nidalee", "Olaf"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerSmite"]
     },
     "Zed": {
       "items": [6692, 3158, 6676, 6694, 3814, 3026],
@@ -1206,7 +1206,7 @@
         "win": ["Viego", "Malphite", "Garen", "LeeSin", "Rumble"],
         "lose": ["Ryze", "Sett", "Lucian", "Orianna", "Syndra"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Ziggs": {
       "items": [6655, 3020, 4628, 3089, 3157, 3135],
@@ -1214,7 +1214,7 @@
         "win": ["Pantheon", "Zed", "Tristana", "Corki", "Vladimir"],
         "lose": ["Orianna", "Azir", "Viego", "Malzahar", "Syndra"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerBarrier"]
     },
     "Zilean": {
       "items": [3158, 7020, 4629, 4641, 4643, 3011],
@@ -1222,7 +1222,7 @@
         "win": ["Bard", "Nami", "Sona", "Senna", "Rell"],
         "lose": ["Sett", "Braum", "Lux", "Rakan", "Swain"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Zoe": {
       "items": [3020, 6655, 3041, 4628, 3157, 3135],
@@ -1230,7 +1230,7 @@
         "win": ["Annie", "Neeko", "TwistedFate", "Galio", "Malzahar"],
         "lose": ["Lucian", "Lissandra", "Gwen", "Irelia", "Anivia"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     },
     "Zyra": {
       "items": [3020, 6653, 3157, 3165, 4641, 3089],
@@ -1238,7 +1238,7 @@
         "win": ["Blitzcrank", "Taric", "Leona", "Zilean", "Morgana"],
         "lose": ["Braum", "Sona", "Seraphine", "Rell", "Nami"]
       },
-      "Spell": ["SummonerFlash", ""]
+      "Spell": ["SummonerFlash", "SummonerDot"]
     }
   }
 }
