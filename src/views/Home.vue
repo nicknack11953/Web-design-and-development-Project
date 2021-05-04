@@ -25,7 +25,6 @@
         </div>
       </div>
     </div>
-    
   </div>
 </template>
 
@@ -46,9 +45,7 @@ export default {
   firebase: {
     documents: db.ref("data"),
   },
-  computed: {
-  
-  },
+  computed: {},
   mounted() {
     fetch(this.api)
       .then((res) => res.json())
@@ -59,8 +56,14 @@ export default {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 a {
   color: #000;
   text-decoration: none;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #1e1f26;
 }
 </style>

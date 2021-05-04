@@ -2,14 +2,14 @@
   <div id="nav">
     <nav
       class="navbar navbar-expand-lg d-flex navbar-dark"
-      style="background-color: #1e1f26"
+      style="background-color: #030608"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">HH.GG</a>
         <button
           class="navbar-toggler"
-          data-bs-target="#menu"
           data-bs-toggle="collapse"
+          data-bs-target="#menu"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,6 +49,9 @@
                 >{{ navlist.title }}</router-link
               >
             </li>
+            <li class="navbar-item posit">
+              <router-link :to="'/list'" class="nav-link">ตารางระดับ</router-link>
+            </li>
           </ul>
         </div>
       </div>
@@ -72,7 +75,6 @@ export default {
         { title: "กลาง", link: "mid" },
         { title: "ล่าง", link: "bot" },
         { title: "ซัพพอร์ต", link: "sup" },
-        { title: "รายการระดับ", link: "list" },
       ],
       class: "navbar-item posit",
     };
@@ -81,6 +83,7 @@ export default {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 .posit {
   width: 100%;
 }
@@ -104,5 +107,11 @@ nav {
   box-shadow: var(--box-shadow);
   z-index: 999;
   transition: background 1s ease;
+}
+
+.navbar-brand {
+  font-family: "Kanit", sans-serif;
+  color: #d0a85c;
+  font-weight: bold;
 }
 </style>

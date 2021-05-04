@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from "@/views/Home.vue";
 import Name from "@/views/champion/Name.vue";
 import Group from "@/views/Group.vue";
+import List from "@/views/List.vue";
 
 Vue.use(VueRouter)
 
@@ -11,6 +12,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/list',
+    name: 'List',
+    component: List
   },
   {
     path: '/group/:position',

@@ -13,14 +13,14 @@
 
       <div class="col-sm-12 col-lg-10">
         <div>
-          <h1>{{ champion[name].name }}</h1>
+          <h1 class="champ_name">{{ champion[name].name }}</h1>
         </div>
         <div>
-          <p>{{ champion[name].title }}</p>
+          <p class="champ_title">{{ champion[name].title }}</p>
         </div>
       </div>
     </div>
-    <div style="margin-top: 3rem">
+    <div class="des_box">
       <div>
         <ul class="nav nav-tabs nav-fill detail-nav">
           <li class="nav-item">
@@ -54,7 +54,7 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div class="box_detail">
         <div v-if="curShow === 'A'" class="class-detail">
           <div>
             <h3>รูน</h3>
@@ -79,52 +79,72 @@
           <div class="row">
             <div class="col-6">
               <h3 class="text-center-card win">
-                แชมป์เปียนที่ชนะทาง {{ name }}
+                แชมป์เปียนที่ชนะทาง {{ champion[name].name }}
               </h3>
-              <div class="row">
+              <div class="row winbox">
                 <div
-                  class="col-4"
+                  class="col-4 card_box"
                   v-for="(listCounter, index) in documents[name].Counter.win"
                   :key="index"
                 >
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      v-bind:src="
-                        'https://ddragon.leagueoflegends.com/cdn/11.9.1/img/champion/' +
-                        counters[listCounter].image.full
-                      "
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <label class="card-text">{{ counters[listCounter].name }}</label>
-                  </div>
+                  <router-link
+                    :to="{
+                      name: 'Name',
+                      params: { name: counters[listCounter].name },
+                    }"
+                  >
+                    <div class="card">
+                      <img
+                        class="card-img-top"
+                        v-bind:src="
+                          'https://ddragon.leagueoflegends.com/cdn/11.9.1/img/champion/' +
+                          counters[listCounter].image.full
+                        "
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body">
+                      <label class="card-text">{{
+                        counters[listCounter].name
+                      }}</label>
+                    </div>
+                  </router-link>
                 </div>
               </div>
             </div>
             <div class="col-6">
               <div class="row">
                 <h3 class="text-center-card lose">
-                  แชมป์เปียนที่แพ้ทาง {{ name }}
+                  แชมป์เปียนที่แพ้ทาง {{ champion[name].name }}
                 </h3>
-                <div
-                  class="col-4"
-                  v-for="(listCounter, index) in documents[name].Counter.lose"
-                  :key="index"
-                >
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      v-bind:src="
-                        'https://ddragon.leagueoflegends.com/cdn/11.9.1/img/champion/' +
-                        counters[listCounter].image.full
-                      "
-                      alt=""
-                    />
-                  </div>
-                  <div class="card-body">
-                    <label class="card-text">{{ counters[listCounter].name }}</label>
+                <div class="row winbox">
+                  <div
+                    class="col-4 card_box"
+                    v-for="(listCounter, index) in documents[name].Counter.lose"
+                    :key="index"
+                  >
+                    <router-link
+                      :to="{
+                        name: 'Name',
+                        params: { name: counters[listCounter].name },
+                      }"
+                    >
+                      <div class="card">
+                        <img
+                          class="card-img-top"
+                          v-bind:src="
+                            'https://ddragon.leagueoflegends.com/cdn/11.9.1/img/champion/' +
+                            counters[listCounter].image.full
+                          "
+                          alt=""
+                        />
+                      </div>
+                      <div class="card-body">
+                        <label class="card-text">{{
+                          counters[listCounter].name
+                        }}</label>
+                      </div>
+                    </router-link>
                   </div>
                 </div>
               </div>
@@ -133,9 +153,9 @@
         </div>
         <div v-else-if="curShow === 'C'" class="class-detail">
           <div>
-            <div class="row">
+            <div class="row item_box">
               <div
-                class="col-2"
+                class="col-lg-2 col-4 item"
                 v-for="(getItem, index) in documents[name].items"
                 :key="index"
               >
@@ -232,8 +252,7 @@
         </div>
       </div>
     </div>
-    <div>
-    </div>
+    <div></div>
   </div>
 </template>
 
@@ -288,9 +307,48 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 .nav-item span {
   cursor: pointer;
 }
+
+.card_box {
+  width: 25%;
+  margin: 2%;
+}
+
+.box_detail {
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.card-body {
+  padding: 5%;
+  margin: 5%;
+  text-align: center;
+}
+
+.winbox {
+  display: flex;
+  justify-content: center;
+}
+
+.des_box {
+  margin-top: 1%;
+}
+
+/* .item_box {
+  display: flex;
+  justify-content: center;
+} */
+
+.item {
+  margin: 1% 0% 1% 0%;
+  display: flex;
+  justify-content: center;
+}
+
 .box {
   width: 48px;
   height: 48px;
@@ -298,18 +356,28 @@ export default {
   border: 1px solid white;
 }
 
+.champ_name {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.champ_title {
+  color: #ffffff;
+  font-size: 30px;
+}
+
 .head-box {
   display: flex;
 }
 
 .detail-nav {
-  background: #4d648d;
+  background: #030608;
   color: white;
 }
 
 .active {
-  background: #283655 !important;
-  color: white !important;
+  background: #323440 !important;
+  color: #d0a85c !important;
 }
 
 .nav-tabs .nav-link {
@@ -317,19 +385,25 @@ export default {
 }
 
 .class-detail {
-  background: #283655;
+  background: #323440;
   color: white;
-  padding: 4rem;
+  padding: 1%;
 }
 
 .text-center-card {
   text-align: center;
+  margin: 1%;
 }
 
 .text-center-card.win {
   color: #3cf894;
 }
+
 .text-center-card.lose {
   color: #fc393e;
+}
+.winbox a {
+  color: #fff;
+  text-decoration: none;
 }
 </style>
